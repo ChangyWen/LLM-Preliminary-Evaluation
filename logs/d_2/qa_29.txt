@@ -3,16 +3,23 @@ model: Qwen/Qwen3-14B
 enable_thinking: False
 do_sample: False
 prompt:
-Is Rara Lake located south of Medina Lake?
+Is Rara Lake located north of Medina Lake?
 *********************************** End of Inputs **************************************
 
 
 
 
 **************************************** Content ***************************************
-Rara Lake is located in the Kavre District of Nepal, in the central part of the country. Medina Lake, on the other hand, is a smaller lake located in the Kavre District as well, but it is situated to the north of Rara Lake.
+Rara Lake is located in the Kavre District of Nepal, while Medina Lake is in the Mustang District of Nepal as well. However, both lakes are in different regions of Nepal.
 
-Therefore, **Rara Lake is not located south of Medina Lake** — in fact, **Rara Lake is to the south of Medina Lake**.
+To determine whether Rara Lake is north of Medina Lake, we can look at their approximate geographical coordinates:
+
+- **Rara Lake**: Approximately at 27.51° N, 85.53° E
+- **Medina Lake**: Approximately at 28.33° N, 83.67° E
+
+Based on these coordinates, **Medina Lake is located to the north of Rara Lake**.
+
+So, the answer is: **No, Rara Lake is not located north of Medina Lake. Medina Lake is north of Rara Lake.**
 ************************************ End of Content ************************************
 
 
