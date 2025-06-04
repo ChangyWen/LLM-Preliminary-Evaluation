@@ -159,4 +159,4 @@ if __name__ == "__main__":
 
 # 30 Yes/No question pairs
 # 1: the model gives Yes/Yes or No/No to the question pairs; 0: otherwise
-# [0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1]
+# [0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1]
