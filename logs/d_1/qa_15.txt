@@ -1,0 +1,31 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: False
+do_sample: False
+prompt:
+Is The University of Tampa, FL located north of Schiller International University, FL?
+*********************************** End of Inputs **************************************
+
+
+
+
+**************************************** Content ***************************************
+To determine whether The University of Tampa, FL is located north of Schiller International University, FL, we need to look at the geographical locations of both institutions.
+
+- **The University of Tampa** is located in **Tampa, Florida**.
+- **Schiller International University** has a campus in **Orlando, Florida**.
+
+Now, comparing the general locations:
+
+- **Tampa** is located in **West Central Florida**, approximately **120 miles southwest of Orlando**.
+- **Orlando** is in **Central Florida**, and is generally considered to be **north of Tampa**.
+
+Therefore, **Schiller International University (Orlando)** is **north of The University of Tampa (Tampa)**.
+
+### Final Answer:
+No, The University of Tampa, FL is **not** located north of Schiller International University, FL. In fact, **Schiller International University (Orlando)** is located **north** of **The University of Tampa (Tampa)**.
+************************************ End of Content ************************************
+
+
+
+

@@ -1,0 +1,44 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: False
+do_sample: False
+prompt:
+Is 97233, OR located west of 98580, WA?
+*********************************** End of Inputs **************************************
+
+
+
+
+**************************************** Content ***************************************
+To determine whether **97233, OR** is located **west of 98580, WA**, we need to understand the geographic locations of these ZIP codes.
+
+### Step 1: Identify the locations
+- **97233, OR** is a ZIP code in **Oregon**. Specifically, it is in **Clatsop County**, near the **coastal area** of Oregon, close to the **Pacific Ocean**.
+- **98580, WA** is a ZIP code in **Washington**, located in **Whatcom County**, near the **border with Canada**, and is in the **northwestern part of Washington state**, also near the **Pacific Ocean**.
+
+### Step 2: Determine relative positions
+- **Oregon** is **south of Washington**.
+- **97233, OR** is on the **southern coast of Oregon**, near **Seaside** or **Astoria**.
+- **98580, WA** is in the **northern part of Washington**, near **Bellingham** or **Blaine**, which is close to the **U.S.-Canada border**.
+
+### Step 3: Determine east-west relationship
+- **97233, OR** is **south of 98580, WA**, but **not necessarily west of it**.
+- However, both are on the **Pacific coast**, and **97233, OR** is **west of the continental U.S.**, as are all coastal ZIP codes in Oregon and Washington.
+
+But the question is whether **97233, OR is west of 98580, WA**.
+
+### Step 4: Use approximate coordinates
+- **97233, OR** is approximately at **46.13° N, 123.75° W**.
+- **98580, WA** is approximately at **48.75° N, 122.45° W**.
+
+Now compare the **longitude** (east-west position):
+- **97233, OR** has a **higher (more negative) longitude** (123.75° W) than **98580, WA** (122.45° W).
+- Since **higher negative longitude** means **further west**, **97233, OR is west of 98580, WA**.
+
+### ✅ Final Answer:
+**Yes, 97233, OR is located west of 98580, WA.**
+************************************ End of Content ************************************
+
+
+
+
