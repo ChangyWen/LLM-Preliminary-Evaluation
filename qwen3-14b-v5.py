@@ -35,8 +35,8 @@ def generate(directory, file_index, prompt, tokenizer, model, enable_thinking, d
         index = 0
 
     # save the output to a file
-    os.makedirs(f"./logs/{directory}", exist_ok=True)
-    with open(f"./logs/{directory}/qa_{file_index}.txt", "w") as f:
+    os.makedirs(f"./logs/thinking_{enable_thinking}/{directory}", exist_ok=True)
+    with open(f"./logs/thinking_{enable_thinking}/{directory}/qa_{file_index}.txt", "w") as f:
         # write to the file
         f.write("**************************************** Inputs ****************************************\n")
         f.write("model: " + model_name + "\n")
@@ -76,6 +76,7 @@ if __name__ == "__main__":
         device_map="auto"
     )
 
+    direct_prompt = " Show me your step-by-step reasoning process and the final answer (Yes or No)."
     prompts = [
         "Is Peter Hitchens’s The Abolition of Britain shorter than Mo Hayder’s Birdman?",
         "Was J. M. Coetzee’s Summertime released later than Suzanne Collins’s Catching Fire?",
@@ -112,7 +113,7 @@ if __name__ == "__main__":
     index = 1
     for prompt in prompts:
         print(f"Generating ({index}/{len(prompts)}) QA...")
-        generate("d_1", index, prompt, tokenizer, model, enable_thinking, do_sample, temperature)
+        generate("group_1-1", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
         print(f"({index}/{len(prompts)}) QA Done")
         index += 1
 
@@ -152,11 +153,11 @@ if __name__ == "__main__":
     index = 1
     for prompt in prompts:
         print(f"Generating ({index}/{len(prompts)}) QA...")
-        generate("d_2", index, prompt, tokenizer, model, enable_thinking, do_sample, temperature)
+        generate("group_1-2", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
         print(f"({index}/{len(prompts)}) QA Done")
         index += 1
 
 
-# 30 Yes/No question pairs
+# 30 Yes/No question pairs (non-thinking, autodl)
 # 1: the model gives Yes/Yes or No/No to the question pairs; 0: otherwise
 # [0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1]
