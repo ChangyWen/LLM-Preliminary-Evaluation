@@ -113,7 +113,7 @@ if __name__ == "__main__":
     index = 1
     for prompt in prompts:
         print(f"Generating ({index}/{len(prompts)}) QA...")
-        generate("group_1-1", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
+        generate("group_2-1", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
         print(f"({index}/{len(prompts)}) QA Done")
         index += 1
 
@@ -153,11 +153,6 @@ if __name__ == "__main__":
     index = 1
     for prompt in prompts:
         print(f"Generating ({index}/{len(prompts)}) QA...")
-        generate("group_1-2", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
+        generate("group_2-2", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
         print(f"({index}/{len(prompts)}) QA Done")
         index += 1
-
-
-# 30 Yes/No question pairs (non-thinking, autodl)
-# 1: the model gives Yes/Yes or No/No to the question pairs; 0: otherwise
-# [0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1]
