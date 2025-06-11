@@ -35,8 +35,8 @@ def generate(directory, file_index, prompt, tokenizer, model, enable_thinking, d
         index = 0
 
     # save the output to a file
-    os.makedirs(f"./logs/thinking_{enable_thinking}/{directory}", exist_ok=True)
-    with open(f"./logs/thinking_{enable_thinking}/{directory}/qa_{file_index}.txt", "w") as f:
+    os.makedirs(f"./logs/{model_name}/thinking_{enable_thinking}/{directory}", exist_ok=True)
+    with open(f"./logs/{model_name}/thinking_{enable_thinking}/{directory}/qa_{file_index}.txt", "w") as f:
         # write to the file
         f.write("**************************************** Inputs ****************************************\n")
         f.write("model: " + model_name + "\n")

@@ -1,83 +1,56 @@
-import sys
 import os
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers.utils import logging
+import sys
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
-logging.set_verbosity_error()
 
-def generate(directory, file_index, prompt, tokenizer, model, enable_thinking, do_sample, temperature):
-    # prepare the model input
-    messages = [
-        {"role": "user", "content": prompt}
-    ]
-    text = tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True,
-        enable_thinking=enable_thinking # Switches between thinking and non-thinking modes. Default is True.
-    )
-    model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+def generate(directory, file_index, prompt, client, model_name, thinking_level, temperature, seed):
+	# prepare the model input
+	messages = [
+		{"role": "user", "content": prompt}
+	]
+	completion = client.chat.completions.create(
+		model=model_name,
+		reasoning_effort=thinking_level,
+		messages=messages,
+		temperature=temperature,
+		seed=seed,
+	)
 
-    # conduct text completion
-    generated_ids = model.generate(
-        **model_inputs,
-        max_new_tokens=32768,
-        do_sample=do_sample,
-        temperature=temperature,
-    )
-    output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist()
+	# save the output to a file
+	os.makedirs(f"./logs/{model_name}/thinking_{thinking_level}/{directory}", exist_ok=True)
+	with open(f"./logs/{model_name}/thinking_{thinking_level}/{directory}/qa_{file_index}.txt", "w") as f:
+		# write to the file
+		f.write("**************************************** Inputs ****************************************\n")
+		f.write("model: " + model_name + "\n")
+		f.write("thinking_level: " + str(thinking_level) + "\n")
+		f.write("temperature: " + str(temperature) + "\n")
+		f.write("seed: " + str(seed) + "\n")
+		f.write("prompt:\n" + prompt + "\n")
+		f.write("*********************************** End of Inputs **************************************\n\n\n\n\n")
 
-    # parsing thinking content
-    try:
-        # rindex finding 151668 (</think>)
-        index = len(output_ids) - output_ids[::-1].index(151668)
-    except ValueError:
-        index = 0
+		f.write("*************************************** Thinking ***************************************\n")
+		f.write(completion.choices[0].message.reasoning_content + "\n")
+		f.write("*********************************** End of Thinking ************************************\n\n\n\n\n")
 
-    # save the output to a file
-    os.makedirs(f"./logs/{model_name}/thinking_{enable_thinking}/{directory}", exist_ok=True)
-    with open(f"./logs/{model_name}/thinking_{enable_thinking}/{directory}/qa_{file_index}.txt", "w") as f:
-        # write to the file
-        f.write("**************************************** Inputs ****************************************\n")
-        f.write("model: " + model_name + "\n")
-        f.write("enable_thinking: " + str(enable_thinking) + "\n")
-        f.write("do_sample: " + str(do_sample) + "\n")
-        if do_sample:
-            f.write("temperature: " + str(temperature) + "\n")
-        f.write("prompt:\n" + prompt + "\n")
-        f.write("*********************************** End of Inputs **************************************\n\n\n\n\n")
-
-        if enable_thinking:
-            thinking_content = tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
-            f.write("*************************************** Thinking ***************************************\n")
-            f.write(thinking_content + "\n")
-            f.write("*********************************** End of Thinking ************************************\n\n\n\n\n")
-
-        content = tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
-        f.write("**************************************** Content ***************************************\n")
-        f.write(content + "\n")
-        f.write("************************************ End of Content ************************************\n\n\n\n\n")
+		f.write("**************************************** Content ***************************************\n")
+		f.write(completion.choices[0].message.content + "\n")
+		f.write("************************************ End of Content ************************************\n\n\n\n\n")
 
 
 if __name__ == "__main__":
-    model_name = "Qwen/Qwen3-14B"
-    enable_thinking = sys.argv[1] == "True"
-    do_sample = False
-    temperature = 0.01
-    if len(sys.argv) > 2:
-        do_sample = True
-        temperature = float(sys.argv[2])
+	client = OpenAI(
+		api_key=os.environ['XAI_API_KEY'],
+		base_url="https://api.x.ai/v1",
+	)
+	model_name = "grok-3-mini"
+	thinking_level = sys.argv[1]
+	temperature = 0.0
+	seed = 10
 
-    # load the tokenizer and the model
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        torch_dtype="auto",
-        device_map="auto"
-    )
-
-    direct_prompt = " Show me your step-by-step reasoning process and the final answer (Yes or No)."
-    prompts = [
+	direct_prompt = " Show me your step-by-step reasoning process and the final answer (Yes or No)."
+	prompts = [
         "Is a blue whale heavier than an elephant?",
         "Is Mount Everest taller than K2?",
         "Did Albert Einstein die later than Isaac Newton?",
@@ -110,14 +83,14 @@ if __name__ == "__main__":
         "Is the average human lifespan longer than that of a dog?",
     ]
 
-    index = 1
-    for prompt in prompts:
-        print(f"Generating ({index}/{len(prompts)}) QA...")
-        generate("group_2-1", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
-        print(f"({index}/{len(prompts)}) QA Done")
-        index += 1
+	index = 1
+	for prompt in prompts:
+		print(f"Generating ({index}/{len(prompts)}) QA...")
+		generate("group_2-1", index, prompt + direct_prompt, client, model_name,thinking_level, temperature, seed)
+		print(f"({index}/{len(prompts)}) QA Done")
+		index += 1
 
-    prompts = [
+	prompts = [
         "Is an elephant heavier than a blue whale?",
         "Is K2 taller than Mount Everest?",
         "Did Isaac Newton die later than Albert Einstein?",
@@ -150,9 +123,9 @@ if __name__ == "__main__":
         "Is the average lifespan of a dog longer than that of a human?",
     ]
 
-    index = 1
-    for prompt in prompts:
-        print(f"Generating ({index}/{len(prompts)}) QA...")
-        generate("group_2-2", index, prompt + direct_prompt, tokenizer, model, enable_thinking, do_sample, temperature)
-        print(f"({index}/{len(prompts)}) QA Done")
-        index += 1
+	index = 1
+	for prompt in prompts:
+		print(f"Generating ({index}/{len(prompts)}) QA...")
+		generate("group_2-2", index, prompt + direct_prompt, client, model_name,thinking_level, temperature, seed)
+		print(f"({index}/{len(prompts)}) QA Done")
+		index += 1
