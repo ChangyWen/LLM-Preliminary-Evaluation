@@ -1,0 +1,49 @@
+**************************************** Inputs ****************************************
+model: gemini-2.5-flash-preview-05-20
+thinking_budget: 0
+temperature: 0.0
+seed: 10
+prompt:
+Is The Ort Institute, IL located west of University of Wisconsin–Sheboygan, WI? Show me your step-by-step reasoning process and the final answer (Yes or No).
+*********************************** End of Inputs **************************************
+
+
+
+
+**************************************** Content ***************************************
+Let's break this down step-by-step to determine if The Ort Institute, IL is located west of University of Wisconsin–Sheboygan, WI.
+
+**Step 1: Find the location (coordinates) of The Ort Institute, IL.**
+
+*   A quick search reveals that "The Ort Institute" in Illinois is likely referring to **ORT Chicago** (formerly known as Ort Technical Institute or Ort Institute of Technology).
+*   ORT Chicago is located in **Skokie, Illinois**.
+*   Approximate coordinates for Skokie, IL: **42.03° N, 87.74° W**
+
+**Step 2: Find the location (coordinates) of University of Wisconsin–Sheboygan, WI.**
+
+*   The University of Wisconsin–Sheboygan is now part of the **University of Wisconsin–Green Bay, Sheboygan Campus**.
+*   It is located in **Sheboygan, Wisconsin**.
+*   Approximate coordinates for Sheboygan, WI: **43.75° N, 87.71° W**
+
+**Step 3: Compare the longitudes.**
+
+*   Longitude for Skokie, IL (The Ort Institute): **87.74° W**
+*   Longitude for Sheboygan, WI (UW–Sheboygan): **87.71° W**
+
+**Step 4: Determine the relative west/east position.**
+
+*   In the Western Hemisphere, a *higher* longitude number (when expressed as degrees West) means a location is *further west*.
+*   87.74 is greater than 87.71.
+
+**Step 5: Formulate the conclusion.**
+
+Since 87.74° W (Skokie, IL) is a higher degree West than 87.71° W (Sheboygan, WI), Skokie, IL is located further west.
+
+**Final Answer:**
+
+Yes
+************************************ End of Content ************************************
+
+
+
+
