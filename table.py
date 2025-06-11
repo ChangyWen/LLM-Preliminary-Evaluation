@@ -28,10 +28,14 @@ for config in configs:
     yy_count = 0
     nn_count = 0
     for i in range(30):
-        if group_1_1[i] == 1 and group_1_2[i] == 1:
-            yy_count += 1
-        elif group_1_1[i] == 0 and group_1_2[i] == 0:
-            nn_count += 1
+        if i == 28:
+            if not(group_1_1[i] == group_1_2[i]):
+                yy_count += 1
+        else:
+            if group_1_1[i] == 1 and group_1_2[i] == 1:
+                yy_count += 1
+            elif group_1_1[i] == 0 and group_1_2[i] == 0:
+                nn_count += 1
     print("long-tail", model, thinking, yy_count + nn_count, (yy_count + nn_count) / 30)
 
 
