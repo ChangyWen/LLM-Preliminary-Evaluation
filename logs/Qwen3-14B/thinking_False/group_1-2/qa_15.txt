@@ -1,0 +1,59 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: False
+do_sample: False
+prompt:
+Is Schiller International University, FL located north of The University of Tampa, FL? Show me your step-by-step reasoning process and the final answer (Yes or No).
+*********************************** End of Inputs **************************************
+
+
+
+
+**************************************** Content ***************************************
+To determine whether **Schiller International University, FL** is located **north of The University of Tampa, FL**, we need to follow a step-by-step process involving geographical data.
+
+---
+
+### **Step 1: Identify the locations of both universities**
+
+- **Schiller International University, FL**  
+  Schiller International University has a campus in **Tampa, Florida**. The specific address is:  
+  **1101 W Kennedy Blvd, Tampa, FL 33609**.
+
+- **The University of Tampa, FL**  
+  The University of Tampa is also located in **Tampa, Florida**. Its main campus is at:  
+  **1200 W Kennedy Blvd, Tampa, FL 33609**.
+
+---
+
+### **Step 2: Compare the addresses**
+
+Both universities are located on **West Kennedy Boulevard** in **Tampa, Florida**.
+
+- **Schiller International University, FL**: 1101 W Kennedy Blvd  
+- **The University of Tampa**: 1200 W Kennedy Blvd
+
+---
+
+### **Step 3: Determine the direction based on street numbers**
+
+On **West Kennedy Boulevard**, the **street numbers increase as you go north**. That means:
+
+- **Lower numbers (e.g., 1101)** are **south** of higher numbers (e.g., 1200).
+- Therefore, **1101 W Kennedy Blvd** is **south** of **1200 W Kennedy Blvd**.
+
+---
+
+### **Step 4: Conclusion**
+
+Since **Schiller International University, FL** is located at **1101 W Kennedy Blvd**, and **The University of Tampa** is at **1200 W Kennedy Blvd**, **Schiller International University is south of The University of Tampa**.
+
+---
+
+### ✅ **Final Answer: No**  
+Schiller International University, FL is **not** located north of The University of Tampa, FL.
+************************************ End of Content ************************************
+
+
+
+
