@@ -20,10 +20,12 @@ if model_type == "flash":
 else:
     assert thinking_budget <= 32768 and thinking_budget >= 128
 
+prompt = sys.argv[3]
+
 client = genai.Client(http_options=HttpOptions(api_version="v1"))
 response = client.models.generate_content(
     model=model_name,
-    contents="How does AI work?",
+    contents=prompt,
     config=types.GenerateContentConfig(
         thinking_config=types.ThinkingConfig(
            thinking_budget=thinking_budget,
