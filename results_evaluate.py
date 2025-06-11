@@ -9,6 +9,8 @@ log_dirs = [
     "Qwen3-14B/thinking_True/",
     "DeepSeek-R1-0528/max_tokens_32000/",
     "DeepSeek-R1-0528/max_tokens_4096/",
+    "Qwen3-32B/thinking_False/",
+    "Qwen3-32B/thinking_True/",
 ]
 
 for log_dir in log_dirs:

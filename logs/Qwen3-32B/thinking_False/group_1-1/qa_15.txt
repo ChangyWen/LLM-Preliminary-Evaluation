@@ -1,0 +1,53 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: False
+do_sample: False
+prompt:
+Is The University of Tampa, FL located north of Schiller International University, FL? Show me your step-by-step reasoning process and the final answer (Yes or No).
+*********************************** End of Inputs **************************************
+
+
+
+
+**************************************** Content ***************************************
+To determine whether **The University of Tampa, FL** is located **north of Schiller International University, FL**, let's go through a step-by-step reasoning process.
+
+---
+
+### **Step 1: Identify the locations of both universities**
+
+#### **The University of Tampa**
+- Located in **Tampa, Florida**.
+- Address: 401 W Kennedy Blvd, Tampa, FL 33606.
+- Latitude: Approximately **27.9733° N**
+
+#### **Schiller International University**
+- Located in **Tampa, Florida** as well.
+- Address: 1001 E Kennedy Blvd, Tampa, FL 33602.
+- Latitude: Approximately **27.9667° N**
+
+---
+
+### **Step 2: Compare their latitudes**
+
+- **The University of Tampa**: ~27.9733° N
+- **Schiller International University**: ~27.9667° N
+
+Since **latitude increases as you go north**, a higher latitude means a more northern location.
+
+- 27.9733° N (University of Tampa) is **slightly higher** than 27.9667° N (Schiller International University).
+
+---
+
+### **Step 3: Conclusion**
+
+Because **The University of Tampa** has a **higher latitude**, it is **located north of** Schiller International University.
+
+---
+
+### ✅ **Final Answer: Yes**
+************************************ End of Content ************************************
+
+
+
+
