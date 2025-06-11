@@ -27,7 +27,7 @@ response = client.models.generate_content(
     config=types.GenerateContentConfig(
         thinking_config=types.ThinkingConfig(
            thinking_budget=thinking_budget,
-           include_thoughts=True,
+           include_thoughts=True if thinking_budget > 0 else False,
         ),
         temperature=0.0,
         seed=10
