@@ -1,0 +1,51 @@
+**************************************** Inputs ****************************************
+model: grok-3-mini
+thinking_level: low
+temperature: 0.0
+seed: 10
+prompt:
+What is the name of the historical figure who was born in 1891, died in 1940, and is known for 'Russian author'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+First, the user is asking for a historical figure who was born in 1891, died in 1940, and is known as a 'Russian author'. I need to identify who that is.
+
+Let me think about famous Russian authors. One that comes to mind is Mikhail Bulgakov. Let me check his birth and death years. I believe Bulgakov was born in 1891 and died in 1940. Yes, that matches.
+
+Is there anyone else? Another famous Russian author is Vladimir Nabokov, but he was born in 1899, not 1891. Or Maxim Gorky, who was born in 1868. No, that doesn't match.
+
+What about Boris Pasternak? He was born in 1890, which is close but not 1891, and he died in 1960. Not a match.
+
+Yevgeny Zamyatin was born in 1884 and died in 1937. No.
+
+Isaac Babel was born in 1894 and died in 1940, but that's not 1891.
+
+Mikhail Bulgakov: Born May 15, 1891, in Kyiv, which was part of the Russian Empire at the time, and died March 10, 1940. Perfect match.
+
+He's known for works like "The Master and Margarita," which is a famous Russian novel.
+
+So, I think Mikhail Bulgakov is the correct answer.
+
+The user said "known for 'Russian author'", which might be a bit vague, but it specifies the category.
+
+Finally, the instruction is to give the final answer in a new line at the end of my response.
+
+So, my response should end with the name on a new line.
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Mikhail Bulgakov was a prominent Russian author born on May 15, 1891, in Kyiv (then part of the Russian Empire) and died on March 10, 1940, in Moscow. He is best known for his satirical and fantastical works, including the novel *The Master and Margarita*.
+
+Final answer:  
+Mikhail Bulgakov
+************************************ End of Content ************************************
+
+
+
+

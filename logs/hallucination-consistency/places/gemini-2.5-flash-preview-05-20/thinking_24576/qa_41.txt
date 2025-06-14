@@ -1,0 +1,35 @@
+**************************************** Inputs ****************************************
+model: gemini-2.5-flash-preview-05-20
+thinking_budget: 24576
+temperature: 0.0
+seed: 10
+prompt:
+What state does the place with latitude 43.0642 and longitude -87.9675 located in? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+Okay, let's see. The user wants to know the state based on a latitude and longitude. No problem. This screams "reverse geocoding." I've got to find the location given the coordinates. Hmm... Let's see, latitude 43.0642, longitude -87.9675. I could run a quick reverse geocoding lookup – probably a mental calculation for something like this, but a quick search like "43.0642, -87.9675" or "location 43.0642, -87.9675" would be sufficient. Right, Milwaukee, Wisconsin. Now, the specific request is the state. Easy. Wisconsin. And let's make sure I adhere to the format requested. Got it.
+
+Please give me your final answer in a new line at the end of your response.
+
+The coordinates 43.0642 latitude and -87.9675 longitude point to a location in Milwaukee.
+
+Wisconsin
+
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The coordinates 43.0642 latitude and -87.9675 longitude point to a location in Milwaukee.
+
+Wisconsin
+************************************ End of Content ************************************
+
+
+
+

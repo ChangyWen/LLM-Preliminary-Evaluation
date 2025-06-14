@@ -1,0 +1,41 @@
+**************************************** Inputs ****************************************
+model: gemini-2.5-pro-preview-06-05
+thinking_budget: 32768
+temperature: 0.0
+seed: 10
+prompt:
+What state does the place with latitude 35.1054 and longitude -106.6465 located in? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+Okay, let's get this done. First, what's the real question here? Right, the user wants the state for a given lat/long. Easy enough. Now, let's pull out those coordinates. Got them: 35.1054, -106.6465. Hmm... 35.1054 is definitely north, -106.6465 is west, and those numbers look familiar. Definitely within the US.
+
+Now, the plan. Reverse geocode, quick and simple. I could use a geocoding service, but frankly, I can probably do this mentally. Let's plug those coordinates into my internal map database, which is basically my brain. "35.1054, -106.6465"... Ah, that's Albuquerque. Big city.
+
+Now, what state? Gotta confirm this to be absolutely sure. Let's see, Albuquerque... I think... Yes, New Mexico. Okay, but always verify. Latitude range for New Mexico... roughly 31 to 37 degrees North. Yep, 35.1054 fits. Longitude... about -103 to -109 West. That matches too. Checks out. The specific location appears to be near the University of New Mexico. Confirmed, New Mexico.
+
+Now for the answer. Gotta keep it clear and concise, and follow the format. Context first: "The coordinates 35.1054, -106.6465 are located in Albuquerque." Then, the final answer, on a new line.
+
+Right. Final check. Did I address the user's question? Yes. Did I put the final answer on a new line as requested? Yes. Okay, here we go.
+
+The coordinates 35.1054, -106.6465 are located in Albuquerque.
+
+New Mexico
+
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The coordinates 35.1054, -106.6465 are located in Albuquerque.
+
+New Mexico
+************************************ End of Content ************************************
+
+
+
+

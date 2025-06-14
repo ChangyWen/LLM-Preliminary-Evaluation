@@ -1,0 +1,41 @@
+**************************************** Inputs ****************************************
+model: gemini-2.5-flash-preview-05-20
+thinking_budget: 24576
+temperature: 0.0
+seed: 10
+prompt:
+What state does the place with latitude 30.3005 and longitude -97.7522 located in? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+Okay, here's what I'm thinking. The user wants the state, given some coordinates. Easy enough, and they want it on its own line – got it.
+
+First things first: 30.3005, -97.7522. Latitude/longitude coordinates. 30 degrees North…that's the southern US, definitely. And -97 degrees West... hmm, that's roughly the central part of the country, west of the Prime Meridian of course. This feels like Texas.
+
+Now, normally, if I wasn’t immediately sure, or just wanted to be *absolutely* certain, I'd use my go-to tools: a mapping service like Google Maps or, even better for this, a geocoding API would be the perfect solution for a precise lookup. I'd feed those coordinates in, and it'd spit out the address, including the county, the city... all the details.
+
+But I'm pretty confident right now. Still, I'll mentally map it: Austin, Travis County, Texas. Yup, that confirms it. 
+
+Alright, the state is Texas.
+
+So, here's the final, formatted answer, just like the user asked for:
+
+Texas
+
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The place with latitude 30.3005 and longitude -97.7522 is located in Texas.
+
+Texas
+************************************ End of Content ************************************
+
+
+
+

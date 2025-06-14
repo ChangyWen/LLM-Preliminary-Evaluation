@@ -1,0 +1,43 @@
+**************************************** Inputs ****************************************
+model: gemini-2.5-flash-preview-05-20
+thinking_budget: 24576
+temperature: 0.0
+seed: 10
+prompt:
+What state does the place with latitude 38.6359 and longitude -90.2451 located in? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+Okay, here we go. The user wants the state for a given latitude and longitude, and they want the answer neatly presented on its own line at the end. Right.
+
+First, let's grab those coordinates. I see the latitude is 38.6359 and the longitude is -90.2451.
+
+Now, let's see. 38.6359 North latitude... that puts us in the mid-latitudes of the Northern Hemisphere. And a longitude of -90.2451 West? That's definitely in the Western Hemisphere, probably somewhere in the central US.
+
+Alright, let's do a quick mental calculation or maybe a lightning-fast online check, just to be sure. Yep... "38.6359, -90.2451"... bingo! St. Louis, Missouri.
+
+So, is St. Louis *actually* in Missouri? Absolutely.
+
+Now, let's present the answer the way they want it. Location first, then the state. And the state name needs its own line at the very end. Got it.
+
+St. Louis
+
+Missouri
+
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The coordinates 38.6359 latitude and -90.2451 longitude point to the city of St. Louis.
+
+Missouri
+************************************ End of Content ************************************
+
+
+
+
