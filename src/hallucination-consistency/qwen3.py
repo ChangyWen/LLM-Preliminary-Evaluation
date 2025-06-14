@@ -7,6 +7,13 @@ import json
 logging.set_verbosity_error()
 
 def generate(directory, file_index, prompt, tokenizer, model, enable_thinking, do_sample, temperature):
+    # save the output to a file
+    os.makedirs(f"../../logs/{directory}/{model_name[5:]}/thinking_{enable_thinking}", exist_ok=True)
+    # check if the file exists
+    if os.path.exists(f"../../logs/{directory}/{model_name[5:]}/thinking_{enable_thinking}/qa_{file_index}.txt"):
+        print(f"Error: file already exists; file_index: {file_index}")
+        return
+
     # prepare the model input
     messages = [
         {"role": "user", "content": prompt}
@@ -35,8 +42,6 @@ def generate(directory, file_index, prompt, tokenizer, model, enable_thinking, d
     except ValueError:
         index = 0
 
-    # save the output to a file
-    os.makedirs(f"../../logs/{directory}/{model_name[5:]}/thinking_{enable_thinking}", exist_ok=True)
     with open(f"../../logs/{directory}/{model_name[5:]}/thinking_{enable_thinking}/qa_{file_index}.txt", "w") as f:
         # write to the file
         f.write("**************************************** Inputs ****************************************\n")
