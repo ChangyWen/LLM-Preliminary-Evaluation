@@ -34,11 +34,16 @@ def compare(entity_type, answer1, answer2):
         return completion.choices[0].message.content.strip()
 
 
-with open("../../logs/hallucination-consistency/places/compared_results.json", "r") as f:
+with open("../../logs/hallucination-consistency/art/compared_results.json", "r") as f:
     compared_results = json.load(f)
     index = 1
     hallucinated_item_count = 0
+    multi_hallucinated_item_count = 0
+    multi_hallucinated_items = []
     while index <= 100:
+        if index == 76 or index == 78 or index == 79:
+            index += 1
+            continue
         item = compared_results[f"{index}"]
         index += 1
 
@@ -46,15 +51,27 @@ with open("../../logs/hallucination-consistency/places/compared_results.json", "
         labels = item["labels"]
         if "0" not in labels: continue
         print(index - 1)
-        print(answers)
-        print(labels)
+        # print(answers)
+        # print(labels)
         print(f"**** {item['ground_truth']} ****")
         hallucinated_item_count += 1
         indices_of_hallucinated_item = [i for i, x in enumerate(labels) if x == "0"]
+        if len(indices_of_hallucinated_item) > 1:
+            multi_hallucinated_item_count += 1
+            multi_hallucinated_items.append(len(indices_of_hallucinated_item))
         for idx in indices_of_hallucinated_item:
             print(f"[{answers[idx]}]")
         print("\n\n")
     print(f"hallucinated item count: {hallucinated_item_count}")
+    print(f"multi-hallucinated item count: {multi_hallucinated_item_count}")
+    print(f"multi-hallucinated items: {multi_hallucinated_items}")
 
+# art 1
+# 89 (2)
 
+# historical figures 15
+# 17 (3), 27 (2), 30 (4), 63 (2)
+
+# art 13
+# 2 (2), 15 (3), 33 (2), 75 (5)
 
