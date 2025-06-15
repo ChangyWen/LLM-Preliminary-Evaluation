@@ -75,3 +75,36 @@ with open("../../logs/hallucination-consistency/art/compared_results.json", "r")
 # art 13
 # 2 (2), 15 (3), 33 (2), 75 (5)
 
+
+
+# ***** Preliminary evaluation settings *****
+
+# 6个模型：DeepSeek-R1-0528,   Gemini-2.5-Flash-Preview-05-20,   Gemini-2.5-Pro-Preview-06-05,   Grok-3-Mini,   Qwen3-14B,   Qwen3-32B。
+
+# 三个领域的知识：地理、历史人物（wiki有记录的）、文艺作品（包括书、电影、音乐），每个领域100个问题。
+
+# 地理领域的问题：给出一个经纬度，问该经纬度的地点位于哪个US state。
+# 历史人物领域的问题：给出某历史人物的出生、离世年份 & 关于该历史人物的一句话描述，问该历史人物的名字。
+# 文艺作品领域的问题：给出发布日期、作者、以及作品类别（书、电影、or 音乐），问该文艺作品的名字。
+
+
+
+# ***** Preliminary results *****
+
+# - 地理领域：
+# 6 (out of 100) 个问题的回答里出现hallucinations，
+# 其中 5 (out of 6) 个问题只有单个模型出现hallucinations，
+# 其他 1 (out of 6) 个问题有 2 个模型出现hallucinations，
+# 其中 1 (out of 1) 个问题的回答里有 2 个模型给出consistent/same hallucinations;
+
+# - 历史人物领域：
+# 21 (out of 100) 个问题的回答里出现hallucinations，
+# 其中 6 (out of 21) 个问题只有单个模型出现hallucinations，
+# 其他 15 (out of 21) 个问题有 3.2 (in average) 个模型出现hallucinations，
+# 其中 4 (out of 15) 个问题的回答里有 2.75 (in average) 个模型给出consistent/same hallucinations;
+
+# - 文艺作品领域：
+# 34 (out of 100) 个问题的回答里出现hallucinations，
+# 其中 21 (out of 34) 个问题只有单个模型出现hallucinations，
+# 其他 13 (out of 34) 个问题有 3.46 (in averge) 个模型出现hallucinations，
+# 其中 4 (out of 13) 个问题的回答里有 3 (in average) 个模型给出consistent/same hallucinations;
