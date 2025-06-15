@@ -1,0 +1,48 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1987-06-08 and created by Stephen King? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, so I need to figure out which famous book by Stephen King was released on June 8, 1987. Let me start by recalling some of his well-known works and their publication dates.
+
+First, Stephen King has written a lot of books, so I need to narrow it down. The date given is 1987-06-08. Let me think about his books from the mid-80s. 
+
+I remember that "The Stand" was a major novel, but I think that was published in 1978. Then there's "It," which I believe came out in 1986. Wait, "It" was 1986, so maybe the one after that? 
+
+Another one is "The Dark Tower" series. The first book in that series, "The Dark Tower I: The Gunslinger," was published in 1982. But maybe a later installment? Let me check. The second book, "The Dark Tower II: The Drawing of the Three," was released in 1987. Wait, when exactly? If the user is asking for June 8, 1987, that might be the date for that second book. 
+
+Alternatively, there's "Misery," which was published in 1987 as well. Let me confirm the exact dates. "Misery" came out in September 1987, so that's after June. So that's not it. 
+
+Then there's "The Eyes of the Dragon," which was published in 1984. "Pet Sematary" was 1983. "Salem's Lot" was 1975. 
+
+Wait, "The Dark Tower II" was published in 1987. Let me check the exact date. I think it was released in June 1987. If the date is June 8, that could be it. 
+
+Alternatively, maybe "The Tommyknockers," which was published in 1987 as well. Let me check the exact dates. "The Tommyknockers" was released in October 1987, so that's later. 
+
+So between "The Dark Tower II: The Drawing of the Three" and maybe another book. Let me confirm the publication date of "The Drawing of the Three." A quick search in my memory: Stephen King's "The Dark Tower II" was indeed published in 1987. The exact date might be June 8. 
+
+Alternatively, maybe "The Stand" was re-released or had a different edition? No, the original was 1978. 
+
+Another possibility is "The Talisman," but that was a collaboration with Peter Straub, published in 1984. 
+
+Wait, I think "The Dark Tower II: The Drawing of the Three" was published on June 8, 1987. That seems to fit the date given. Let me cross-verify. If I recall correctly, the first book was 1982, the second in 1987, then the third in 1987 as well? No, the third was 1993. So the second book in the series, "The Drawing of the Three," was indeed released in 1987. The exact date might be June 8. 
+
+Therefore, the answer is likely "The Dark Tower II: The Drawing of the Three."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The Dark Tower II: The Drawing of the Three  
+The Dark Tower II: The Drawing of the Three
+************************************ End of Content ************************************

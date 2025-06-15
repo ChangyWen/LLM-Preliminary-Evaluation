@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 2014-01-28 and created by Pierce Brown? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, so I need to figure out the name of the book released on January 28, 2014, by Pierce Brown. Let me start by recalling what I know about Pierce Brown. He's a science fiction author, right? I remember he wrote a series that's pretty popular. The first book in that series was "Red Rising." Wait, when was that published? Let me check my memory. I think "Red Rising" came out in 2014. But the exact date? The user is asking for January 28, 2014. Let me confirm.
+
+I can try to recall the publication dates. I know that "Red Rising" is the first book in the Red Rising trilogy. The trilogy includes "Red Rising," "Golden Son," and "Iron Crown." If the first one was in 2014, maybe the date is correct. Let me see if there's any other book by Pierce Brown around that time. I don't think so. He also wrote "Ages of Empire" which is a prequel series, but those came out later. The first one in that series was "In the Blood" in 2018. So the 2014 book is definitely "Red Rising." 
+
+Wait, just to be sure, maybe I should cross-verify. If I search for Pierce Brown's bibliography, the first book is "Red Rising" published in 2014. The exact date might be January 28. I think that's correct. I've heard that the release date was in early 2014, and January 28 seems plausible. I don't recall any other books by him in that timeframe. So the answer should be "Red Rising."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Red Rising
+************************************ End of Content ************************************

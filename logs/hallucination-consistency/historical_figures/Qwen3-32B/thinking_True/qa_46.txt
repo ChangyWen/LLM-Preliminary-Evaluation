@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in -69, died in -30, and is known for 'last active pharaoh of Ptolemaic Egypt'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 69 BCE, died in 30 BCE, and known as the last active pharaoh of Ptolemaic Egypt. Hmm, first, I need to confirm the dates. Wait, the user wrote "-69" and "-30". In historical dating, BC is sometimes represented with a negative sign, so that would be 69 BC to 30 BC. 
+
+Now, the Ptolemaic dynasty was the Greek-Egyptian royal family that ruled Egypt after Alexander the Great's death. The last active pharaoh... I remember Cleopatra VII is a well-known figure. She was the last active pharaoh of Egypt before the Roman conquest. Let me check her dates. Cleopatra was born around 69 BC and died in 30 BC, which matches the dates given. She ruled alongside her younger brothers and later her son, but she was the last to actively rule before Egypt became a Roman province. 
+
+Wait, but wasn't there someone else after her? No, after Cleopatra's death, Egypt was annexed by Rome, and her son Caesarion was declared pharaoh but was likely executed. So Cleopatra is indeed the last active one. Let me double-check her birth and death years. Some sources say she was born in 69 BC and died in 30 BC, which fits perfectly. So the answer should be Cleopatra VII. I think that's correct.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Cleopatra VII
+************************************ End of Content ************************************

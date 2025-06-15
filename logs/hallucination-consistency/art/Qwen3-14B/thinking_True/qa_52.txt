@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1988-05-19 and created by Thomas Harris? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a famous book released on May 19, 1988, created by Thomas Harris. Hmm, I need to recall Thomas Harris's works. He's known for some thriller novels. The most famous ones are "The Silence of the Lambs," "Red Dragon," "Hannibal," and "Black Sunday." Let me check the publication dates.
+
+"The Silence of the Lambs" was published in 1988. Wait, but when exactly? I think it was May 1988. Let me confirm. Yes, "The Silence of the Lambs" by Thomas Harris was released on May 19, 1988. That's the one. The other books like "Red Dragon" came out earlier, in 1981. "Hannibal" was 1999. So the answer should be "The Silence of the Lambs."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The famous book released on May 19, 1988, created by Thomas Harris is *The Silence of the Lambs*.  
+
+The Silence of the Lambs
+************************************ End of Content ************************************

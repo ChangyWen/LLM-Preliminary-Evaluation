@@ -1,0 +1,28 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1809, died in 1882, and is known for 'British naturalist, author of "On the origin of species, by means of natural selection" (1809-1882)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1809 and died in 1882. They mentioned that this person is a British naturalist and the author of "On the Origin of Species by Means of Natural Selection." 
+
+First, I need to recall who wrote that book. I remember that Charles Darwin is the one associated with that work. Let me check the dates. Darwin was born in 1809 and died in 1882, which matches the dates given. He was indeed a British naturalist, and his most famous work is "On the Origin of Species," published in 1859. The user might have included the publication year in the question, but the key points are the birth and death years and the book's title.
+
+I don't think there's another prominent figure from that time with those exact dates and that specific work. Maybe someone like Alfred Russel Wallace, but he wasn't born in 1809. Wallace co-proposed the theory of evolution through natural selection, but the primary author of the book is Darwin. So the answer should be Charles Darwin.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Charles Darwin  
+Charles Darwin
+************************************ End of Content ************************************

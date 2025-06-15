@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1917, died in 1984, and is known for 'Indian Prime Minister and politician (1917-1984)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1917 and died in 1984, who was an Indian Prime Minister and politician. First, I need to recall Indian Prime Ministers from that time period. Let me think.
+
+Indira Gandhi comes to mind. She was a prominent leader in India. Let me check her dates. Indira Gandhi was born on October 19, 1917, and she died on October 31, 1984. That matches the years given. She served as the Prime Minister of India from 1966 to 1977 and then again from 1980 until her assassination in 1984. She was the first and, so far, only female Prime Minister of India. 
+
+Another possibility might be someone else, but I can't think of another major Prime Minister from that era with those exact birth and death years. Let me confirm. For example, Jawaharlal Nehru was the first Prime Minister, but he was born in 1889 and died in 1964. Lal Bahadur Shastri was next, born in 1904, died in 1966. Then Indira Gandhi took over. So yes, Indira Gandhi fits the description perfectly. The user might be looking for her name. I don't think there's any other Indian Prime Minister with those exact dates. So the answer should be Indira Gandhi.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Indira Gandhi
+************************************ End of Content ************************************

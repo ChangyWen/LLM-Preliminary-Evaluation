@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1999-06-08 and created by Thomas Harris? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a famous book released on June 8, 1999, created by Thomas Harris. I know Thomas Harris is a well-known author, especially for his thriller novels. His most famous works include "The Silence of the Lambs," which was published in 1988. But the user is asking about a book from 1999.
+
+Wait, after "The Silence of the Lambs," he wrote "Hannibal," which was released in 1999. Let me confirm the publication date. "Hannibal" was indeed published on June 8, 1999. That's the sequel to "The Silence of the Lambs," featuring Hannibal Lecter. I think that's the one. I should double-check the dates to be sure. Yes, the release date matches. So the answer should be "Hannibal."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The famous book released on June 8, 1999, created by Thomas Harris is "Hannibal."  
+
+Hannibal
+************************************ End of Content ************************************

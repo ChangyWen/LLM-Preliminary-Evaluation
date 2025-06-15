@@ -1,0 +1,28 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1981-09-08 and created by Stephen King? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a famous book released on September 8, 1981, created by Stephen King. First, I need to recall Stephen King's bibliography and check which of his books were published around that date.
+
+Stephen King has written many well-known books, like "The Shining," "It," "Pet Sematary," and "The Stand." But I need to find the one that came out specifically on September 8, 1981. Let me think. "The Shining" was published in 1977, so that's too early. "It" was released in 1986, so that's after the date given. "Pet Sematary" was published in 1983, so that's also later. What about "The Dead Zone"? That was 1979. Hmm.
+
+Wait, maybe "Cujo"? That was 1981. Let me check the exact publication date. Cujo was published on September 8, 1981. Yes, that's the one. I think that's the correct answer. I should confirm the date to be sure. Some sources might list the publication date as September 8, 1981, for "Cujo." That matches the user's query. So the answer should be "Cujo."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Cujo  
+Cujo
+************************************ End of Content ************************************

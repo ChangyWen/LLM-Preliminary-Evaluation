@@ -1,0 +1,28 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1869, died in 1948, and is known for 'pre-eminent leader of Indian nationalism during the British Raj (1869-1948)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1869 and died in 1948, known as the pre-eminent leader of Indian nationalism during the British Raj. Hmm, I need to think about prominent Indian leaders from that era.
+
+First, the dates: 1869 to 1948. That's a span of 79 years. The person was active during the British Raj, which ended in 1947 with India's independence. So the leader would have been active in the late 19th and early 20th centuries.
+
+The key term here is "pre-eminent leader of Indian nationalism." The most famous leader associated with Indian independence is Mahatma Gandhi. Let me check his dates. Gandhi was born in 1869 and died in 1948. That matches exactly. He was a central figure in the Indian independence movement, leading nonviolent resistance against British rule. Other leaders like Jawaharlal Nehru were also important, but Nehru was born in 1889, so that doesn't fit. Subhas Chandra Bose was born in 1897. So Gandhi is the one who fits the birth and death years. Also, he's widely recognized as the pre-eminent leader. I think that's the answer.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Mahatma Gandhi  
+Mahatma Gandhi
+************************************ End of Content ************************************

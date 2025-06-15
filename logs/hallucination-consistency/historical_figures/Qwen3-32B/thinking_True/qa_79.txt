@@ -1,0 +1,32 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1872, died in 1928, and is known for 'Norwegian explorer; first person to reach the South Pole'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for a historical figure born in 1872 and died in 1928, known as a Norwegian explorer who was the first to reach the South Pole.
+
+First, I need to recall who the first person to reach the South Pole was. I remember that there was a race between two explorers: Roald Amundsen and Robert Falcon Scott. Amundsen was Norwegian, and Scott was British. Since the question specifies a Norwegian explorer, it's likely Amundsen. 
+
+Now checking the dates. Roald Amundsen was born on July 16, 1872, and he died on June 18, 1928. That matches the birth and death years given in the question. 
+
+To confirm, Amundsen led the expedition that reached the South Pole on December 14, 1911, beating Scott's team. So all the details fit: Norwegian, born 1872, died 1928, first to South Pole. 
+
+I don't think there's another explorer that fits these criteria. Maybe double-check if there's any other Norwegian explorer from that time, but I can't think of any. The key points all align with Roald Amundsen.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Roald Amundsen  
+Roald Amundsen
+************************************ End of Content ************************************

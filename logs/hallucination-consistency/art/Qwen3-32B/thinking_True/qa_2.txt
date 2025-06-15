@@ -1,0 +1,29 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1981-05-10 and created by Dean Koontz? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, so I need to figure out the name of the famous book by Dean Koontz that was released on May 10, 1981. Let me start by recalling what I know about Dean Koontz's works. He's a well-known author of horror and suspense novels. Some of his famous books include "The Shining" and "Christine," but wait, no, actually, "The Shining" was written by Stephen King, not Dean Koontz. "Christine" is also by Stephen King. Hmm, maybe I'm mixing up the authors here.
+
+Let me think again. Dean Koontz has written a lot of books. Some of his popular series include the "Odd Thomas" series and the "Frankenstein" series. But the question is about a book from 1981. Let me check the timeline. In the early 1980s, Dean Koontz was active. I remember that "The Eyes of Darkness" was published in 1981. Wait, was that the release date? Let me confirm. "The Eyes of Darkness" is a novel that introduces the character of Frankenstein's monster, which later became part of his Frankenstein series. The publication date for "The Eyes of Darkness" is indeed 1981. Let me check the exact date. If I recall correctly, it was released in May 1981. The user specified May 10, 1981. So that might be the one. 
+
+But I should make sure there aren't other books by Koontz from that time. Let me think. Another book from around that time is "The Voice of the Night," but that was 1980. "The Funhouse" was 1973. "Stranger Than Fiction" was 1981 as well, but I think that's a different book. Wait, "The Eyes of Darkness" is the one that starts the Frankenstein series. The main character is a creature created by a scientist, and it's a horror novel. The release date matches the year 1981. I think the exact date is May 10, 1981. So the answer should be "The Eyes of Darkness."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The famous book released on May 10, 1981, and created by Dean Koontz is **"The Eyes of Darkness"**. 
+
+The Eyes of Darkness
+************************************ End of Content ************************************

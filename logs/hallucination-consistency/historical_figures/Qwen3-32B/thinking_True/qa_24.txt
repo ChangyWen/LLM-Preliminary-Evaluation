@@ -1,0 +1,28 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1908, died in 1973, and is known for '28th president of Chile (1908–1973)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for a historical figure born in 1908 and died in 1973, who was the 28th president of Chile. First, I need to check the dates. If they were born in 1908 and died in 1973, that makes them 65 years old. Now, the 28th president of Chile... I'm not too familiar with Chilean presidents, so I need to think.
+
+Wait, Chile's presidents are listed in order, so the 28th one. Let me recall some Chilean leaders. Salvador Allende comes to mind. He was a socialist and the first Marxist to be elected president in Latin America. He was president from 1970 until 1973, when the coup happened. But was he the 28th president? Let me verify. 
+
+Looking up a list of Chile's presidents, the 28th president is indeed Salvador Allende. He was born on June 27, 1908, and died on September 11, 1973, which matches the dates given. So the answer should be Salvador Allende. I need to make sure there's no other president with similar details. Another possibility might be someone else, but Allende fits the birth and death years and the presidency number. Yes, that's correct.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Salvador Allende was the 28th president of Chile, born in 1908 and died in 1973.  
+Salvador Allende
+************************************ End of Content ************************************

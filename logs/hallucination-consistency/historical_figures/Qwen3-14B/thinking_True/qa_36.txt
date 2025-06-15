@@ -1,0 +1,26 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1822, died in 1895, and is known for 'French chemist and microbiologist'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1822 and died in 1895, known as a French chemist and microbiologist. Hmm, I need to think of scientists from that era.
+
+First, the time frame: 1822 to 1895. That's the 19th century. French scientists... Louis Pasteur comes to mind. He was a chemist and microbiologist. Let me check his dates. Louis Pasteur was born in 1822 and died in 1895. Yes, that matches exactly. He's famous for his work on germ theory, pasteurization, and vaccines. So I think that's the person they're looking for. I don't recall any other French scientists with those exact birth and death years in those fields. Maybe someone else, but Pasteur is the most prominent. Let me confirm once more. Yes, Louis Pasteur fits all the criteria.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Louis Pasteur  
+Louis Pasteur
+************************************ End of Content ************************************

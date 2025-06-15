@@ -1,0 +1,25 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1938, died in 1980, and is known for 'Soviet singer, songwriter, poet and actor'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for a historical figure born in 1938, died in 1980, known as a Soviet singer, songwriter, poet, and actor. Hmm. First, I need to think of notable Soviet artists from that time period.
+
+Viktor Tsoi comes to mind, but he was born in 1962 and died in 1990, so that's not right. Maybe someone else. Valery Leontiev? He was a popular Soviet singer, but I think he's still alive. Wait, the death year is 1980. Let me check. Oh, maybe it's Vladimir Vysotsky. Wait, Vysotsky was born in 1938 and died in 1980. Yes! He was a famous Soviet singer-songwriter, poet, and actor. He's very well-known in Russia for his contributions to music and literature. Let me confirm the dates again. Yes, he was born on January 25, 1938, and died on July 25, 1980. That fits the criteria. So the answer should be Vladimir Vysotsky.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Vladimir Vysotsky
+************************************ End of Content ************************************

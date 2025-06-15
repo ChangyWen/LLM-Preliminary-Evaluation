@@ -1,0 +1,28 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1869, died in 1948, and is known for 'pre-eminent leader of Indian nationalism during the British Raj (1869-1948)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for a historical figure born in 1869 and died in 1948, who was a pre-eminent leader of Indian nationalism during the British Raj. Hmm, first, I need to recall who was active in that time period. The British Raj was from 1858 to 1947, so the person's lifespan fits within that era.
+
+1869 to 1948... Let me think. Mahatma Gandhi comes to mind. He was a key leader in India's independence movement. When was he born? I think he was born in 1869. Let me confirm. Yes, Mohandas Karamchand Gandhi, commonly known as Mahatma Gandhi, was born on October 2, 1869, and he died on January 30, 1948. That matches the dates given. He was indeed a pre-eminent leader of Indian nationalism, leading the movement for independence through nonviolent resistance. 
+
+Wait, are there any other prominent leaders from that time? Maybe Jawaharlal Nehru, but he was born in 1889 and died in 1964. So his dates don't fit. Subhas Chandra Bose was another leader, but he was born in 1897 and died in 1948. His death year is correct, but birth year is off. So Gandhi is the one who fits both the birth and death years. Also, the description mentions "pre-eminent leader," which definitely applies to Gandhi as he was the most prominent figure in the Indian independence movement. So I'm pretty confident the answer is Mahatma Gandhi.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Mahatma Gandhi  
+Mahatma Gandhi
+************************************ End of Content ************************************

@@ -1,0 +1,31 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1882, died in 1942, and is known for 'Belarusian writer (1882-1942)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1882 and died in 1942, known as a Belarusian writer. First, I need to recall notable Belarusian writers from that time period. The years 1882 to 1942... That's a span that includes the early 20th century, so maybe someone active during the Russian Empire, the interwar period, or even World War II.
+
+Belarusian literature... I know that Yanka Kupala is a significant figure. He was a poet and writer, and I think he was born in the late 19th century. Let me check the dates. Yanka Kupala was born in 1882 and died in 1942. That matches the years given. His real name was Jan Kupala, and he's considered one of the founders of modern Belarusian literature. He wrote in the Belarusian language and was influential in the cultural revival. 
+
+Another possibility might be Maksim Bahdanovich, but he was born in 1891 and died in 1917, so that doesn't fit. There's also Francišak Bahuševič, but he was born in 1887 and died in 1917 as well. So Yanka Kupala seems to be the correct answer here. I should confirm the dates again to be sure. Yes, 1882-1942 is correct for Yanka Kupala. He was a key figure in Belarusian literature, so the answer should be him.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Yanka Kupala
+
+Yanka Kupala, born Jan Kupala, was a prominent Belarusian writer, poet, and playwright, widely regarded as one of the founders of modern Belarusian literature. His works, written in the Belarusian language, played a crucial role in the cultural and literary revival of Belarus during the early 20th century. He is celebrated for his contributions to poetry, drama, and prose, and his legacy remains influential in Belarusian culture.
+
+Yanka Kupala
+************************************ End of Content ************************************

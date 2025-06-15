@@ -1,0 +1,31 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1879, died in 1954, and is known for 'Australian writer and feminist'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1879, died in 1954, known as an Australian writer and feminist. Hmm.
+
+First, I need to recall Australian writers from that era. Let me think. There's a famous author named Miles Franklin, but I think she was born in 1879. Wait, yes, Miles Franklin was an Australian writer. She's known for her novel "My Brilliant Career," which was published in 1901. She was also a feminist, right? She was involved in women's rights and was a member of the Women's Christian Temperance Union. 
+
+Let me check the dates. If she was born in 1879 and died in 1954, that fits. I think she was born on January 14, 1879, and died on April 13, 1954. Yes, that matches the dates given. She's also the namesake of the Miles Franklin Literary Award, which is one of Australia's most prestigious literary prizes. 
+
+I don't think there are other prominent Australian feminists from that time who fit the birth and death years. Maybe someone like Edith Cowan? Wait, Edith Cowan was born in 1861 and died in 1932, so that's not it. Another possibility could be Nellie Martel, but she was born in 1885. So, Miles Franklin seems to be the correct answer here. I should confirm once more. Yes, Miles Franklin is the Australian writer and feminist born in 1879 and died in 1954.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Miles Franklin  
+
+Miles Franklin
+************************************ End of Content ************************************

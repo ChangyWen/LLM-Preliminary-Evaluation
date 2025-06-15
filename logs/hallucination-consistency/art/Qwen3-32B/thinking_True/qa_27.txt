@@ -1,0 +1,30 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1959-04-27 and created by Richard Condon? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, so I need to figure out the name of the famous book released on April 27, 1959, created by Richard Condon. Let me start by recalling what I know about Richard Condon. He was an American author, right? I think he wrote some novels that were turned into movies. The date is 1959, so maybe it's a classic from that era.
+
+Wait, I remember that "The Manchurian Candidate" is a well-known book by Richard Condon. Let me check the publication date. I think the original novel came out in 1959. The movie adaptation was later, maybe 1962 with Frank Langella and then a remake in 2004 with Denzel Washington. But the user is asking about the book. Let me confirm the exact release date. If I recall correctly, the book was published in April 1959. The 27th might be the specific day. 
+
+I should make sure there aren't any other books by Condon from that time. He also wrote "The Death of the PC" and others, but those are less famous. "The Manchurian Candidate" is definitely his most famous work. The plot involves a brainwashed soldier used in a political conspiracy, which was pretty ahead of its time. Given the date and the author, I'm pretty confident the answer is "The Manchurian Candidate."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The Manchurian Candidate  
+Richard Condon's famous book released on April 27, 1959, is **The Manchurian Candidate**.  
+
+The Manchurian Candidate
+************************************ End of Content ************************************

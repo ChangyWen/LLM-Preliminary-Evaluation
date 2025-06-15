@@ -1,0 +1,29 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 2000-04-01 and created by Robert Kiyosaki? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, so the user is asking for the name of a famous book released on April 1, 2000, created by Robert Kiyosaki. Let me start by recalling Robert Kiyosaki's most well-known works. He's famous for "Rich Dad Poor Dad," which was first published in 1997. But the user is asking about a book from 2000. I need to check if there's another book by him around that time.
+
+I remember that after "Rich Dad Poor Dad," he wrote several other books in the Rich Dad series. Let me think. "Rich Dad's CASHFLOW Quadrant" was published in 1999, so that's before 2000. Then there's "Rich Dad's Guide to Investing," which came out in 2000. Wait, the exact date? The user specified April 1, 2000. I should verify the publication date of "Rich Dad's Guide to Investing." 
+
+A quick check in my memory: "Rich Dad's Guide to Investing" was indeed released in 2000. The exact date might be April 1st. That fits the user's query. Another possibility is "Rich Dad's Increase Your Financial IQ," but I think that was later. So the most likely answer is "Rich Dad's Guide to Investing." Let me make sure there's no other book by him in that timeframe. I don't recall another major title from Kiyosaki in early 2000. Therefore, the answer should be that book.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Rich Dad's Guide to Investing
+
+Rich Dad's Guide to Investing
+************************************ End of Content ************************************

@@ -1,0 +1,34 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1188, died in 1252, and is known for 'Spanish princess and saint, queen consort of France'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1188 and died in 1252. The clues given are that she's known as a Spanish princess and saint, and she was the queen consort of France.
+
+First, I need to think of queens from France around that time. The 13th century... Let me recall. Eleanor of Aquitaine comes to mind, but she was born earlier, around 1122, and she was queen of France before becoming queen of England. But she died in 1204, so that's not matching the dates here.
+
+Wait, the user mentioned a Spanish princess. Maybe someone from the Iberian Peninsula? Let me think. There was a queen named Isabella, but I think she was from a later period. Wait, maybe Blanche of Castile? She was queen of France, but she was born in 1188. Let me check her dates. Blanche of Castile was born in 1188 and died in 1252. She was the queen consort of France, married to Louis VIII. She's also known as a saint? Hmm, I'm not sure about the saint part. Wait, she was a patron saint of some places, but was she officially canonized? Or maybe she's referred to as a saint in some traditions?
+
+Alternatively, maybe it's Eleanor of Castile? But she was born in 1241, which is later than 1188. No. Wait, another possibility: Saint Thérèse of Lisieux? No, she was much later. 
+
+Wait, Blanche of Castile was the mother of Saint Louis, Louis IX of France. She was a significant figure, known for her piety and political influence. She might be referred to as a saint in some contexts, even if not officially canonized. Let me confirm her dates again: born 1188, died 1252. Yes, that matches. She was a Spanish princess because she was from Castile, and she became queen of France. So the answer is Blanche of Castile. I think that's the one.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Blanche of Castile  
+Blanche of Castile (1188–1252) was a Spanish princess, queen consort of France, and a revered figure known for her piety and political acumen. She is sometimes venerated as a saint in certain traditions, though not officially canonized by the Catholic Church.  
+
+Blanche of Castile
+************************************ End of Content ************************************

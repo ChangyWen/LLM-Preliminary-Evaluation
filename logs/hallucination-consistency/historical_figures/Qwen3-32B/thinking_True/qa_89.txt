@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1921, died in 1989, and is known for 'Soviet nuclear physicist and human rights activist'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for a historical figure born in 1921, died in 1989, who was a Soviet nuclear physicist and human rights activist. Hmm. First, I need to think of notable Soviet scientists from that time period. The years 1921 to 1989... So someone who was active during the Cold War era.
+
+Nuclear physicists in the Soviet Union... Maybe someone involved in the Manhattan Project or the Soviet atomic bomb program? Wait, the Manhattan Project was during WWII, but the Soviet Union was developing their own nuclear program later. There's Igor Kurchatov, but he was born in 1903 and died in 1960, so that doesn't fit the dates. Then there's Andrei Sakharov. Let me check his dates. Sakharov was born in 1921 and died in 1989. Yes, that matches. He was a physicist who worked on the Soviet hydrogen bomb, but later became a human rights activist. That fits the description. 
+
+Wait, are there any others? Maybe someone else? Let me think. Lev Landau? He was a physicist, but he was born in 1908 and died in 1968. No. So Sakharov seems to be the one. He was part of the Soviet nuclear program, then became an activist, which led to his exile and later Nobel Peace Prize. Yeah, that's right. The user is probably looking for Andrei Sakharov. Let me confirm the dates again. Born 1921, died 1989. Yes, that's correct. So the answer should be Andrei Sakharov.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Andrei Sakharov
+************************************ End of Content ************************************

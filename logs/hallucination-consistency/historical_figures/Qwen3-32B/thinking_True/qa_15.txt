@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1889, died in 1945, and is known for 'Austrian-born German politician, chancellor and Führer of Germany, leader of the Nazi Party (1889-1945)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1889 and died in 1945. The description mentions they were an Austrian-born German politician, served as chancellor and Führer of Germany, and led the Nazi Party.
+
+First, I need to recall who fits these criteria. The key points here are the birth and death years, the roles as chancellor and Führer, and the Nazi Party leadership. The most prominent figure associated with the Nazi Party and leading Germany during World War II is Adolf Hitler. Let me verify the dates. Adolf Hitler was indeed born on April 20, 1889, in Austria, and he died on April 30, 1945, in Berlin. He became the Chancellor of Germany in 1933 and later declared himself Führer in 1934. He was the leader of the Nazi Party, which was the National Socialist German Workers' Party. 
+
+I should make sure there aren't any other figures that match this description. For example, other Nazi leaders like Hermann Göring or Heinrich Himmler, but they didn't hold the position of Führer. The title Führer was specifically Hitler's. Also, the birth and death years align perfectly with Hitler's. No other major political leader of that time fits all these details. So the answer must be Adolf Hitler.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Adolf Hitler
+************************************ End of Content ************************************

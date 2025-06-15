@@ -1,0 +1,25 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1957-09-05 and created by Jack Kerouac? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, so I need to figure out the name of the famous book released on September 5, 1957, created by Jack Kerouac. Let me start by recalling what I know about Jack Kerouac. He was a key figure in the Beat Generation, right? His most well-known work is probably "On the Road," but I should verify the publication date.
+
+Wait, "On the Road" was published in 1957. Let me check the exact date. I think it was in the fall, maybe September. The user specified September 5th. I'm pretty sure that's correct. But I should make sure there aren't any other books by Kerouac from that time. He wrote several novels, like "The Dharma Bums" and "Big Sur," but those came later. "On the Road" was his breakthrough novel. The publication date being September 5, 1957, seems right. I remember reading that it was published by Viking Press. Yeah, that's the one. So the answer should be "On the Road."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+On the Road
+************************************ End of Content ************************************

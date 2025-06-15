@@ -1,0 +1,30 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1904, died in 1996, and is known for 'Czech association football player (1904-1996)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1904 and died in 1996, known as a Czech association football player. First, I need to confirm the birth and death years. The person was born in 1904 and died in 1996, so that's a long career if they were active in football during that time.
+
+Czech association football players... Maybe I should think of famous Czech footballers from that era. The name that comes to mind is Josef Masopust. Wait, but when was he born? Let me check. Josef Masopust was born in 1931, so that's not matching the 1904 birth year. Hmm.
+
+Another possibility is Oldřich Nejedlý. He was a Czech footballer, but I think he was born in 1902. Let me verify. Oldřich Nejedlý was born on April 15, 1902, and died on March 15, 1996. Wait, that's close. He was born in 1902, not 1904. But the user specified 1904. Maybe there's a mistake here, or perhaps another player.
+
+Alternatively, maybe the user is referring to someone else. Let me think. There's also Jan Štěch, but he was born in 1926. What about players from the early 20th century? Maybe someone like František Plánička? He was born in 1904. Let me check. František Plánička was a Czech footballer, born on April 15, 1904, and died on March 15, 1996. That matches the birth and death years exactly. He played for Czechoslovakia and was part of the team that won the 1934 World Cup. Yes, that seems to fit. So the answer is František Plánička.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+František Plánička  
+František Plánička
+************************************ End of Content ************************************

@@ -1,0 +1,30 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1889, died in 1945, and is known for 'Austrian-born German politician, chancellor and Führer of Germany, leader of the Nazi Party (1889-1945)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1889 and died in 1945. The description mentions an Austrian-born German politician, chancellor, Führer of Germany, and leader of the Nazi Party. Hmm, I need to think about who fits that.
+
+First, the birth and death years: 1889 to 1945. That's a 56-year span. The person was Austrian-born but became a German politician. The key terms here are "Nazi Party leader," "Führer," and "chancellor." The most prominent figure that comes to mind is Adolf Hitler. Let me check the details. Adolf Hitler was indeed born in Austria, specifically in Braunau am Inn, which is in Austria. He later became the leader of the Nazi Party in Germany. He was the Chancellor of Germany from 1933 until his suicide in 1945. His death date is 1945, which matches the user's question. 
+
+Wait, but I should make sure there's no other person that fits. Let me think. Other notable figures from that era... Maybe someone else? But the Führer of Germany and leader of the Nazi Party is pretty specific. I don't think there's another person who fits that description. The user also mentioned "Austrian-born German politician," which aligns with Hitler's background. He was born in Austria but later became a German citizen. 
+
+So, putting it all together, the answer should be Adolf Hitler. I don't see any conflicting information here. The dates and roles all match up.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Adolf Hitler  
+Adolf Hitler
+************************************ End of Content ************************************

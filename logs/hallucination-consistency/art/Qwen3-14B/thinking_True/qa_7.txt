@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 2013-09-24 and created by Stephen King? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a famous book released on September 24, 2013, created by Stephen King. First, I need to recall Stephen King's works around that time. I know he has written several books, but I need to check which one was published on that specific date.
+
+I remember that "Doctor Sleep" is a Stephen King novel. Let me think about its publication date. I believe "Doctor Sleep" was released in 2013. But was it September 24th? I might be mixing up the dates. Another possibility is "Revival," but I think that came out in 2014. Wait, "Doctor Sleep" was published on September 24, 2013. Yes, that's correct. It's the sequel to "The Shining." So the answer should be "Doctor Sleep."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Doctor Sleep
+
+Doctor Sleep
+************************************ End of Content ************************************

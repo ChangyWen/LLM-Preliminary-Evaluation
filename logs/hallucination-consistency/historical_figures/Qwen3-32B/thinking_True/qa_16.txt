@@ -1,0 +1,32 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-32B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1188, died in 1252, and is known for 'Spanish princess and saint, queen consort of France'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for a historical figure born in 1188 and died in 1252. The key details are that she was a Spanish princess, a saint, and the queen consort of France. 
+
+First, I need to recall Spanish princesses from that time period who became queens of France. The 13th century... Let me think. The House of Capet was ruling France then. The French kings often married into other European royal families.
+
+Blanche of Castile comes to mind. Wait, was she born in 1188? Let me check the dates. Blanche of Castile was born in 1188 and died in 1252. Yes, that matches the dates given. She was the daughter of Alfonso VIII of Castile and Eleanor of England. She married Louis VIII of France, making her queen consort. After her husband's death, she became regent for her son Louis IX, who later became a saint (St. Louis). Blanche herself was canonized as a saint, so that fits the description.
+
+Another possibility might be someone else, but I can't think of another Spanish princess from that time who fits all the criteria. Let me confirm the dates again. Blanche was born in 1188, died in 1252. Yes, that's correct. She was indeed a saint and queen of France. I think that's the right answer.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Blanche of Castile  
+Blanche of Castile was a Spanish princess, born in 1188, who became the queen consort of France through her marriage to King Louis VIII. After her husband's death, she served as regent for her son, Louis IX (later canonized as St. Louis). Blanche herself was canonized as a saint in 1255, known for her piety and political acumen during a turbulent period in French history.  
+
+Blanche of Castile
+************************************ End of Content ************************************

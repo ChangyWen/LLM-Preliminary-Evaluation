@@ -1,0 +1,27 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the historical figure who was born in 1882, died in 1942, and is known for 'Belarusian writer (1882-1942)'? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a historical figure born in 1882 and died in 1942, known as a Belarusian writer. Hmm, I need to recall Belarusian writers from that era.
+
+First, I know that Belarusian literature has several notable authors. The time period is early 20th century to World War II. Let me think. Yanka Kupala comes to mind. He was a prominent Belarusian poet and writer. Wait, when was he born and died? Let me check my memory. I think he was born in 1882 and died in 1942. Yes, that matches the dates given. He was a key figure in Belarusian literature, part of the "Belarusian Renaissance" movement. His works were in both Belarusian and Russian, and he was also involved in political activities. Another name that might come up is Maksim Bahdanovich, but I believe he was born later, maybe in the 1890s. So Yanka Kupala seems to fit the criteria. Let me confirm the dates again. Yes, Yanka Kupala was born on April 15, 1882, and died on July 15, 1942. He was a poet, writer, and public figure. So the answer should be Yanka Kupala.
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+Yanka Kupala
+
+Yanka Kupala
+************************************ End of Content ************************************
