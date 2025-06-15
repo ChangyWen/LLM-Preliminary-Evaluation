@@ -1,0 +1,1902 @@
+{
+    "1": {
+        "answers": [
+            " It ",
+            " It ",
+            " It ",
+            "Final answer:   It ",
+            " It ",
+            " \"It\" "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "It"
+    },
+    "2": {
+        "answers": [
+            " Whispers ",
+            " The Mask ",
+            " The Eyes of Darkness ",
+            "Final answer:   The Eyes of Darkness ",
+            " Watchers ",
+            " The Eyes of Darkness "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "The Eyes of Darkness"
+    },
+    "3": {
+        "answers": [
+            " Catch-22 ",
+            " Catch-22 ",
+            " Catch-22 ",
+            "Final answer:   Catch-22 ",
+            "Catch-22   Catch-22 ",
+            "Catch-22 "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Catch-22"
+    },
+    "4": {
+        "answers": [
+            " To All the Boys I've Loved Before ",
+            " To All the Boys I've Loved Before ",
+            " To All the Boys I've Loved Before ",
+            "Final answer:   To All the Boys I've Loved Before ",
+            " We Were Liars ",
+            " To All the Boys I've Loved Before "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "To All The Boys I've Loved Before"
+    },
+    "5": {
+        "answers": [
+            "Final answer:   The Stand ",
+            " The Stand ",
+            " The Stand ",
+            " The Stand ",
+            " The Stand ",
+            "The Stand "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Stand"
+    },
+    "6": {
+        "answers": [
+            " Altered Carbon ",
+            " Altered Carbon ",
+            " Altered Carbon ",
+            " **Altered Carbon** ",
+            " Altered Carbon ",
+            "Altered Carbon "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Altered Carbon"
+    },
+    "7": {
+        "answers": [
+            " Doctor Sleep ",
+            " Doctor Sleep ",
+            " Doctor Sleep ",
+            " **Doctor Sleep** ",
+            " Doctor Sleep ",
+            " Wait, maybe \"The Green Mile\" was "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "Doctor Sleep"
+    },
+    "8": {
+        "answers": [
+            " American Gods ",
+            "American Gods  ",
+            " American Gods ",
+            " **American Gods** ",
+            " American Gods ",
+            "The famous book released on June 19, 2001, by Neil Gaiman is **\"American Gods\"**. "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "American Gods"
+    },
+    "9": {
+        "answers": [
+            " 12 Rules for Life: An Antidote to Chaos ",
+            " 12 Rules for Life: An Antidote to Chaos ",
+            " 12 Rules for Life: An Antidote to Chaos ",
+            "Final answer:   12 Rules for Life: An Antidote to Chaos ",
+            " 12 Rules for Life: An Antidote to Chaos ",
+            "12 Rules for Life: An Antidote to Chaos "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "12 Rules for Life: An Antidote to Chaos"
+    },
+    "10": {
+        "answers": [
+            " The Silmarillion ",
+            " The Silmarillion ",
+            " The Silmarillion ",
+            " The Silmarillion ",
+            "The Silmarillion   The Silmarillion ",
+            "The Silmarillion "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Silmarillion"
+    },
+    "11": {
+        "answers": [
+            " Slaughterhouse-Five ",
+            "Slaughterhouse-Five ",
+            " Slaughterhouse-Five ",
+            "Final answer:   Slaughterhouse-Five ",
+            " Slaughterhouse-Five ",
+            " Slaughterhouse-Five "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Slaughterhouse-Five, or the Children's Crusade"
+    },
+    "12": {
+        "answers": [
+            " The Kite Runner ",
+            " The Kite Runner ",
+            " The Kite Runner ",
+            " **The Kite Runner** ",
+            " The Kite Runner ",
+            "The Kite Runner   The Kite Runner "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Kite Runner"
+    },
+    "13": {
+        "answers": [
+            " **The Sandman #4: A Hope in Hell** ",
+            " The Sandman, Vol. 1: Preludes & Nocturnes ",
+            " Good Omens ",
+            " Good Omens ",
+            " Good Omens ",
+            " Good Omens "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Good Omens"
+    },
+    "14": {
+        "answers": [
+            " Always and Forever, Lara Jean ",
+            " Always and Forever, Lara Jean ",
+            " Always and Forever, Lara Jean ",
+            " Always and Forever, Lara Jean ",
+            " To All the Boys I've Loved Before ",
+            "P.S. I Still Love You   **Final Answer:** P.S. I Still Love You "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "ground_truth": "Always and Forever, Lara Jean"
+    },
+    "15": {
+        "answers": [
+            " Rich Dad Poor Dad ",
+            " Rich Dad's Guide to Investing ",
+            " Rich Dad Poor Dad ",
+            "Final answer:   Rich Dad's Cashflow Quadrant ",
+            "Rich Dad Poor Dad   Rich Dad Poor Dad ",
+            " Rich Dad's Guide to Investing "
+        ],
+        "labels": [
+            "1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0"
+        ],
+        "ground_truth": "Rich Dad Poor Dad"
+    },
+    "16": {
+        "answers": [
+            " P.S. I Still Love You ",
+            " P.S. I Still Love You ",
+            " P.S. I Still Love You ",
+            " P.S. I Still Love You ",
+            " The Summer of Chasing Mermaids ",
+            "P.S. I Still Love You "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "P.S. I Still Love You"
+    },
+    "17": {
+        "answers": [
+            " Charlie and the Chocolate Factory ",
+            " Charlie and the Chocolate Factory ",
+            " Charlie and the Chocolate Factory ",
+            " Charlie and the Chocolate Factory ",
+            "Charlie and the Chocolate Factory   Charlie and the Chocolate Factory ",
+            " Charlie and the Chocolate Factory "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Charlie and the Chocolate Factory"
+    },
+    "18": {
+        "answers": [
+            " Thirteen Reasons Why ",
+            " Thirteen Reasons Why ",
+            " Thirteen Reasons Why ",
+            " Thirteen Reasons Why ",
+            " Thirteen Reasons Why ",
+            "Thirteen Reasons Why   Final Answer: Thirteen Reasons Why "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Thirteen Reasons Why"
+    },
+    "19": {
+        "answers": [
+            " *In Cold Blood* ",
+            " In Cold Blood ",
+            " In Cold Blood ",
+            "Final answer:   In Cold Blood ",
+            " In Cold Blood ",
+            " After all this, I think the correct answer is that there is no book by Truman Capote published on January 17, 1966. However, if the user is referring to a book that was intended for that time, it's \"Answered Prayers,\" but it wasn't released then. Therefore, the answer is that there is no such "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "In Cold Blood"
+    },
+    "20": {
+        "answers": [
+            " **In Cold Blood** ",
+            " In Cold Blood ",
+            " In Cold Blood ",
+            " In Cold Blood ",
+            " In Cold Blood ",
+            " After all this, I think the correct answer is that there is no book by Truman Capote published on January 17, 1966. However, if the user is referring to a book that was intended for that time, it's \"Answered Prayers,\" but it wasn't released then. Therefore, the answer is that there is no such "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "In Cold Blood: A True Account of a Multiple Murder and Its Consequences"
+    },
+    "21": {
+        "answers": [
+            " East of Eden ",
+            " East of Eden ",
+            " East of Eden ",
+            " **East of Eden** ",
+            " East of Eden ",
+            " East of Eden "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "East of Eden"
+    },
+    "22": {
+        "answers": [
+            " Life of Pi ",
+            " Life of Pi ",
+            " Life of Pi ",
+            "Final answer:   Life of Pi ",
+            "Life of Pi   The answer is: Life of Pi. ",
+            "Life of Pi "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Life of Pi"
+    },
+    "23": {
+        "answers": [
+            " House of Leaves ",
+            "House of Leaves ",
+            " House of Leaves ",
+            " House of Leaves ",
+            " House of Leaves ",
+            "House of Leaves "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "House of Leaves"
+    },
+    "24": {
+        "answers": [
+            " The Ballad of Songbirds and Snakes ",
+            "The Ballad of Songbirds and Snakes  ",
+            " The Ballad of Songbirds & Snakes ",
+            "Final answer:   The Ballad of Songbirds and Snakes ",
+            " No book by Suzanne Collins was released on May 19, 2020. ",
+            "The Ballad of Songbirds and Snakes "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "The Ballad of Songbirds and Snakes"
+    },
+    "25": {
+        "answers": [
+            " On the Road ",
+            " On the Road ",
+            " On the Road ",
+            " **On the Road** ",
+            " On the Road ",
+            "On the Road "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "On the Road"
+    },
+    "26": {
+        "answers": [
+            " The Perks of Being a Wallflower ",
+            " The Perks of Being a Wallflower ",
+            " The Perks of Being a Wallflower ",
+            " The Perks of Being a Wallflower ",
+            " The Perks of Being a Wallflower ",
+            "The Perks of Being a Wallflower "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Perks of Being a Wallflower"
+    },
+    "27": {
+        "answers": [
+            " The Manchurian Candidate ",
+            " The Manchurian Candidate ",
+            " The Manchurian Candidate ",
+            " The Manchurian Candidate ",
+            " The Manchurian Candidate ",
+            " The Manchurian Candidate "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Manchurian Candidate"
+    },
+    "28": {
+        "answers": [
+            " Carrie ",
+            " Carrie ",
+            " Carrie ",
+            " **Carrie** ",
+            " Carrie ",
+            "Carrie "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Carrie"
+    },
+    "29": {
+        "answers": [
+            " Rich People Problems ",
+            " Rich People Problems ",
+            " Rich People Problems ",
+            "Final answer:   Rich People Problems ",
+            " Rich People Problems ",
+            "Rich People Problems "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Rich People Problems"
+    },
+    "30": {
+        "answers": [
+            " Starship Troopers ",
+            " Starship Troopers ",
+            " Starship Troopers ",
+            " Starship Troopers ",
+            "Starship Troopers   Starship Troopers ",
+            "Starship Troopers "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Starship Troopers"
+    },
+    "31": {
+        "answers": [
+            " *Into the Wild* ",
+            " Into the Wild ",
+            " Into the Wild ",
+            "Final answer:   Into the Wild ",
+            " Into the Wild ",
+            "**Final Answer:**   Into the Wild "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Into the Wild"
+    },
+    "32": {
+        "answers": [
+            " Coraline ",
+            " Coraline ",
+            " Coraline ",
+            "Final answer:   Coraline ",
+            " Coraline ",
+            "Coraline "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Coraline"
+    },
+    "33": {
+        "answers": [
+            " Moneyball ",
+            " Moneyball: The Art of Winning an Unfair Game ",
+            " Moneyball: The Art of Winning an Unfair Game ",
+            "Final answer:   Moneyball ",
+            "Moneyball   The Art of Winning an Unfair Game ",
+            " Wait, maybe the user is referring to \"The New New Thing,\" but "
+        ],
+        "labels": [
+            "0",
+            "1",
+            "1",
+            "0",
+            "1",
+            "0"
+        ],
+        "ground_truth": "(The Art of Winning an Unfair Game)"
+    },
+    "34": {
+        "answers": [
+            " Moneyball ",
+            " Moneyball: The Art of Winning an Unfair Game ",
+            " Moneyball: The Art of Winning an Unfair Game ",
+            " Moneyball: The Art of Winning an Unfair Game ",
+            "Moneyball   The Art of Winning an Unfair Game ",
+            " Wait, maybe the user is referring to \"The New New Thing,\" but "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "Moneyball"
+    },
+    "35": {
+        "answers": [
+            " The Fifth Season ",
+            " The Fifth Season ",
+            " The Fifth Season ",
+            " The Fifth Season ",
+            " The Fifth Season ",
+            " The Fifth Season "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Fifth Season"
+    },
+    "36": {
+        "answers": [
+            " Red Rising ",
+            " Red Rising ",
+            " Red Rising ",
+            " Red Rising ",
+            "Red Rising   Red Rising ",
+            "Red Rising "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Red Rising"
+    },
+    "37": {
+        "answers": [
+            " Misery ",
+            " Misery ",
+            " Misery ",
+            " Misery ",
+            " Misery ",
+            "The Dark Tower II: The Drawing of the Three   The Dark Tower II: The Drawing of the Three "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "Misery"
+    },
+    "38": {
+        "answers": [
+            " A Thousand Splendid Suns ",
+            " A Thousand Splendid Suns ",
+            " A Thousand Splendid Suns ",
+            " A Thousand Splendid Suns ",
+            " A Thousand Splendid Suns ",
+            "A Thousand Splendid Suns "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "A Thousand Splendid Suns"
+    },
+    "39": {
+        "answers": [
+            " The Art of Racing in the Rain ",
+            " The Art of Racing in the Rain ",
+            " The Art of Racing in the Rain ",
+            " The Art of Racing in the Rain ",
+            " The Art of Racing in the Rain ",
+            "The Art of Racing in the Rain   The Art of Racing in the Rain "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Art of Racing in the Rain"
+    },
+    "40": {
+        "answers": [
+            " The Subtle Art of Not Giving a F*ck ",
+            " The Subtle Art of Not Giving a F*ck ",
+            " The Subtle Art of Not Giving a F*ck ",
+            " Final answer: The Subtle Art of Not Giving a F*ck ",
+            " The Subtle Art of Not Giving a F*ck ",
+            " The Subtle Art of Not Giving a F*ck "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    "41": {
+        "answers": [
+            " Eragon ",
+            " Eragon ",
+            " Eragon ",
+            "Final answer:   Eragon ",
+            "Eragon   Eragon ",
+            " Eldest "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "Eragon"
+    },
+    "42": {
+        "answers": [
+            " The Neverending Story ",
+            "The Neverending Story ",
+            " The Neverending Story ",
+            "Final answer:   The Neverending Story ",
+            " The Neverending Story ",
+            " The Neverending Story "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Die unendliche Geschichte"
+    },
+    "43": {
+        "answers": [
+            " The Neverending Story ",
+            "The Neverending Story ",
+            " The Neverending Story ",
+            "Final answer:   The NeverEnding Story ",
+            " The Neverending Story ",
+            " The Neverending Story "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Neverending Story"
+    },
+    "44": {
+        "answers": [
+            " Jurassic Park ",
+            " Jurassic Park ",
+            " Jurassic Park ",
+            "Final answer:   Jurassic Park ",
+            "Jurassic Park   Jurassic Park ",
+            " Jurassic Park "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Jurassic Park"
+    },
+    "45": {
+        "answers": [
+            " **If Beale Street Could Talk** ",
+            " If Beale Street Could Talk ",
+            " If Beale Street Could Talk ",
+            " **If Beale Street Could Talk** ",
+            " If Beale Street Could Talk ",
+            "If Beale Street Could Talk "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "If Beale Street Could Talk"
+    },
+    "46": {
+        "answers": [
+            " 1Q84 ",
+            " 1Q84 ",
+            " *1Q84* ",
+            "Final answer:   1Q84 ",
+            " 1Q84 ",
+            "1Q84 "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "1Q84"
+    },
+    "47": {
+        "answers": [
+            " If I Did It: Confessions of the Killer ",
+            " The iPhone's Phone Book (or Contacts) ",
+            " If I Did It: Confessions of the Killer ",
+            "Final answer:   If I Did It ",
+            " No known famous book matches the given criteria. ",
+            "The name of the famous book released on September 13, 2007, created by Pablo Fenjves is \"The Secret Life of Bees.\" "
+        ],
+        "labels": [
+            "1",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "ground_truth": "If I Did It"
+    },
+    "48": {
+        "answers": [
+            " The Red Shoes ",
+            " There is no famous book by Dominick Dunne released on September 13, 2007. ",
+            " Too Much Money ",
+            "Final answer:   The Two Mrs. Grenvilles ",
+            "**Final Answer:**   The book does not exist as described. ",
+            " The New York Times Best Seller List: The Untold Story "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "ground_truth": "If I Did It"
+    },
+    "49": {
+        "answers": [
+            " The Way We Lived Then ",
+            " There is no famous book by Dominick Dunne released on September 13, 2007. ",
+            " No book by Dominick Dunne matches that release date. ",
+            " A Season in Purgatory ",
+            "**Final Answer:**   The book does not exist as described. ",
+            " The New York Times Best Seller List: The Untold Story "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "ground_truth": "If I Did It: Confessions of the Killer"
+    },
+    "50": {
+        "answers": [
+            "Final Answer:   If I Did It ",
+            " The iPhone's Phone Book (or Contacts) ",
+            " If I Did It: Confessions of the Killer ",
+            "Final answer:   If I Did It ",
+            " No known famous book matches the given criteria. ",
+            "The name of the famous book released on September 13, 2007, created by Pablo Fenjves is \"The Secret Life of Bees.\" "
+        ],
+        "labels": [
+            "1",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "ground_truth": "If I Did It: Confessions of the Killer"
+    },
+    "51": {
+        "answers": [
+            " The Secret History ",
+            " The Secret History ",
+            " The Secret History ",
+            "Final answer:   The Secret History ",
+            " The Secret History ",
+            " The Secret History "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Secret History"
+    },
+    "52": {
+        "answers": [
+            " The Silence of the Lambs ",
+            " The Silence of the Lambs ",
+            " The Silence of the Lambs ",
+            "Final answer:   The Silence of the Lambs ",
+            " The Silence of the Lambs ",
+            "The Silence of the Lambs "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Silence of the Lambs"
+    },
+    "53": {
+        "answers": [
+            "Final answer:   We Have Always Lived in the Castle ",
+            " We Have Always Lived in the Castle ",
+            " We Have Always Lived in the Castle ",
+            " We Have Always Lived in the Castle ",
+            " We Have Always Lived in the Castle ",
+            " Wait, perhaps \"The Bird's Nest\" was published in 1954, but maybe a new edition in "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "We Have Always Lived in the Castle"
+    },
+    "54": {
+        "answers": [
+            " The Disaster Artist ",
+            " The Disaster Artist ",
+            " The Disaster Artist: My Life Inside The Room, the Greatest Bad Movie Ever Made ",
+            "Final answer:   The Disaster Artist ",
+            " The Disaster Artist: Or How I Learned to Stop Worrying and Love a Man Named Tommy ",
+            " The Disaster Artist "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Disaster Artist"
+    },
+    "55": {
+        "answers": [
+            " The Disaster Artist ",
+            "The Disaster Artist: My Life Inside The Room, The Greatest Bad Movie Ever Made ",
+            " The Disaster Artist: My Life Inside The Room, the Greatest Bad Movie Ever Made ",
+            "Final answer:   The Disaster Artist ",
+            " The Disaster Artist: The Untold Story of The Room, the Greatest Bad Movie Ever Made ",
+            "The Possible "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "The Disaster Artist"
+    },
+    "56": {
+        "answers": [
+            " Note: Some sources might mention other works around this time, but *Ordeal by Innocence* is confirmed to have the publication date of 1958-11-03. ",
+            " Ordeal by Innocence ",
+            " Ordeal by Innocence ",
+            "Final answer:   Ordeal by Innocence ",
+            " The Adventure of the Christmas Pudding ",
+            "The Blue Geranium "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "ground_truth": "Ordeal by Innocence"
+    },
+    "57": {
+        "answers": [
+            " Cujo ",
+            " Cujo ",
+            " Cujo ",
+            "**Final Answer:**   Cujo ",
+            "Cujo   Cujo ",
+            "Cujo "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Cujo"
+    },
+    "58": {
+        "answers": [
+            " Room ",
+            " Room ",
+            " Room ",
+            " **Room** ",
+            " Room ",
+            " Room "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Room"
+    },
+    "59": {
+        "answers": [
+            " Stranger in a Strange Land ",
+            " Stranger in a Strange Land ",
+            " Stranger in a Strange Land ",
+            "Final answer:   Stranger in a Strange Land ",
+            "The Heinlein Juveniles: Red Planet   The Heinlein Juveniles: Have ",
+            " \"Stranger in a Strange Land\" "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "Stranger in a Strange Land"
+    },
+    "60": {
+        "answers": [
+            " The Pale Horse ",
+            " The Pale Horse ",
+            " The Pale Horse ",
+            " **The Pale Horse** ",
+            " The Adventure of the Christmas Pudding ",
+            "The Pale Horse "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "The Pale Horse"
+    },
+    "61": {
+        "answers": [
+            " Mockingjay ",
+            " Mockingjay ",
+            " Mockingjay ",
+            "Final answer:   Mockingjay ",
+            " Mockingjay ",
+            "The famous book released on August 24, 2010, by Suzanne Collins is *Mockingjay*.   *Mockingjay* "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Mockingjay"
+    },
+    "62": {
+        "answers": [
+            " The Andromeda Strain ",
+            " The Andromeda Strain ",
+            " The Andromeda Strain ",
+            "Final answer:   The Andromeda Strain ",
+            " The Andromeda Strain ",
+            "The Andromeda Strain "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Andromeda Strain"
+    },
+    "63": {
+        "answers": [
+            " The Fellowship of the Ring ",
+            " The Lord of the Rings ",
+            " The Fellowship of the Ring ",
+            "Final answer:   The Fellowship of the Ring ",
+            " The Fellowship of the Ring ",
+            "The Fellowship of the Ring   The Fellowship of the Ring "
+        ],
+        "labels": [
+            "1",
+            "0",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Fellowship of the Ring"
+    },
+    "64": {
+        "answers": [
+            " Shrek! ",
+            " Shrek! ",
+            " Shrek ",
+            "Final answer:   Shrek! ",
+            "The famous book released on October 17, 1990, created by William Steig is \"Shrek!\"   Shrek! ",
+            " Shrek! "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Shrek!"
+    },
+    "65": {
+        "answers": [
+            " Angela's Ashes ",
+            " Angela's Ashes ",
+            " Angela's Ashes ",
+            "Final answer:   Angela's Ashes ",
+            " Angela's Ashes ",
+            "Angela's Ashes "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Angela's Ashes"
+    },
+    "66": {
+        "answers": [
+            "Children of Blood and Bone   (Note: The date format 2018-03-06 corresponds to March 6, 2018.) ",
+            " Children of Blood and Bone ",
+            " Children of Blood and Bone ",
+            "Final answer:   Children of Blood and Bone ",
+            " Children of Blood and Bone ",
+            " **Final Answer:** Children of Blood and Bone "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Children of Blood and Bone"
+    },
+    "67": {
+        "answers": [
+            " When Breath Becomes Air ",
+            " When Breath Becomes Air ",
+            " When Breath Becomes Air ",
+            "Final answer:   When Breath Becomes Air ",
+            " When Breath Becomes Air ",
+            "When Breath Becomes Air "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "When Breath Becomes Air"
+    },
+    "68": {
+        "answers": [
+            "Final Answer:   We Need to Talk About Kevin ",
+            "We Need to Talk About Kevin ",
+            " We Need to Talk About Kevin ",
+            " We Need to Talk About Kevin ",
+            " The Postman Always Rings Twice ",
+            " We Need to Talk About Kevin "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "We Need to Talk About Kevin"
+    },
+    "69": {
+        "answers": [
+            " Wolf Hall ",
+            " Wolf Hall ",
+            " Wolf Hall ",
+            "Final answer:   Wolf Hall ",
+            "Wolf Hall   Wolf Hall ",
+            "Wolf Hall "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Wolf Hall"
+    },
+    "70": {
+        "answers": [
+            " Fight Club ",
+            " Fight Club ",
+            " Fight Club ",
+            "Final answer:   Fight Club ",
+            " Fight Club ",
+            "Fight Club "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Fight Club"
+    },
+    "71": {
+        "answers": [
+            " The Subtle Knife ",
+            " The Subtle Knife ",
+            " The Subtle Knife ",
+            " The Subtle Knife ",
+            " Northern Lights ",
+            "The Subtle Knife "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "The Subtle Knife"
+    },
+    "72": {
+        "answers": [
+            " The Feminine Mystique ",
+            " The Feminine Mystique ",
+            " The Feminine Mystique ",
+            " The Feminine Mystique ",
+            " The Feminine Mystique ",
+            " **Final Answer:** The Feminine Mystique "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Feminine Mystique"
+    },
+    "73": {
+        "answers": [
+            " The Big Short: Inside the Doomsday Machine ",
+            " The Big Short ",
+            " The Big Short ",
+            " The Big Short ",
+            " The Big Short ",
+            " Boomerang: Travels in the New Europe "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "0"
+        ],
+        "ground_truth": "The Big Short: Inside the Doomsday Machine"
+    },
+    "74": {
+        "answers": [
+            " Casino Royale ",
+            " Casino Royale ",
+            " Casino Royale ",
+            " Casino Royale ",
+            " Casino Royale ",
+            "Casino Royale "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Casino Royale"
+    },
+    "75": {
+        "answers": [
+            "*Freakonomics*   (Note: The release date aligns with the first edition's publication date.) ",
+            " Freakonomics ",
+            " Freakonomics ",
+            "Final answer:   Freakonomics ",
+            " Freakonomics ",
+            "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+        ],
+        "ground_truth": "the Hidden Side of Everything"
+    },
+    "76": {
+        "answers": [
+            " Freakonomics ",
+            " Freakonomics ",
+            " Freakonomics ",
+            "Final answer:   Freakonomics ",
+            " Freakonomics ",
+            "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+        ],
+        "ground_truth": "A Rogue Economist Explores"
+    },
+    "77": {
+        "answers": [
+            "Freakonomics ``` ",
+            " Freakonomics ",
+            " Freakonomics: A Rogue Economist Explores the Hidden Side of Everything ",
+            " **Freakonomics** ",
+            " Freakonomics ",
+            "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Freakonomics:"
+    },
+    "78": {
+        "answers": [
+            "Final answer:   Freakonomics ",
+            "Freakonomics ",
+            " Freakonomics: A Rogue Economist Explores the Hidden Side of Everything ",
+            "Final answer:   Freakonomics ",
+            "Freakonomics   Freakonomics ",
+            "Freakonomics "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+        ],
+        "ground_truth": "the Hidden Side of Everything"
+    },
+    "79": {
+        "answers": [
+            "Freakonomics   *(Final answer placed on a new line as requested)* ",
+            "Freakonomics ",
+            " Freakonomics: A Rogue Economist Explores the Hidden Side of Everything ",
+            "Final answer:   Freakonomics ",
+            "Freakonomics   Freakonomics ",
+            "Freakonomics "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+        ],
+        "ground_truth": "A Rogue Economist Explores"
+    },
+    "80": {
+        "answers": [
+            "Final Answer:   Freakonomics ",
+            "Freakonomics ",
+            " Freakonomics: A Rogue Economist Explores the Hidden Side of Everything ",
+            "Final answer:   Freakonomics ",
+            "Freakonomics   Freakonomics ",
+            "Freakonomics "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Freakonomics:"
+    },
+    "81": {
+        "answers": [
+            " Lincoln in the Bardo ",
+            " Lincoln in the Bardo ",
+            " Lincoln in the Bardo ",
+            " Lincoln in the Bardo ",
+            " Lincoln in the Bardo ",
+            " Lincoln in the Bardo "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Lincoln in the Bardo"
+    },
+    "82": {
+        "answers": [
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            "Final answer:   The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Truth About the Harry Quebert Affair"
+    },
+    "83": {
+        "answers": [
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair ",
+            " The Truth About the Harry Quebert Affair "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "La v\u00e9rit\u00e9 sur l'affaire Harry Quebert"
+    },
+    "84": {
+        "answers": [
+            " I, Robot ",
+            " I, Robot ",
+            " I, Robot ",
+            " **I, Robot** ",
+            "I, Robot   I, Robot ",
+            "I, Robot "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "I, Robot"
+    },
+    "85": {
+        "answers": [
+            "Final Answer:   Harry Potter and the Deathly Hallows ",
+            " Therefore, the premise of your question regarding a \"famous book\" created by him on that specific date is incorrect. ",
+            " reCAPTCHA ",
+            "Final answer:   reCAPTCHA ",
+            "The final answer is:   **There is no famous book created by Luis von Ahn released on May 27, 2007.** ",
+            "The Human Web: How the Internet Is Changing the Way We Create, Share, and Profit from Knowledge   The Human Web: How the Internet Is Changing the Way We Create, Share, and Profit from Knowledge "
+        ],
+        "labels": [
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "ground_truth": "reCAPTCHA"
+    },
+    "86": {
+        "answers": [
+            " The Amber Spyglass ",
+            "The Amber Spyglass ",
+            " The Amber Spyglass ",
+            " The Amber Spyglass ",
+            " The Amber Spyglass ",
+            "The Amber Spyglass "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Amber Spyglass"
+    },
+    "87": {
+        "answers": [
+            " My Sister's Keeper ",
+            " My Sister's Keeper ",
+            " My Sister's Keeper ",
+            " My Sister's Keeper ",
+            " My Sister's Keeper ",
+            "My Sister's Keeper   The correct answer is: *My Sister's Keeper* "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "My Sister's Keeper"
+    },
+    "88": {
+        "answers": [
+            " Going Rogue: An American Life ",
+            " Heaven Is for Real ",
+            " Heaven is for Real ",
+            " Heaven is for Real ",
+            "The Secret Life of the American Soldier   The Secret Life of the American Soldier ",
+            " So, the answer is \"The Wright Brothers "
+        ],
+        "labels": [
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "ground_truth": "Heaven is for Real"
+    },
+    "89": {
+        "answers": [
+            " Bridge to Terabithia ",
+            " Bridge to Terabithia ",
+            " Bridge to Terabithia ",
+            " **Bridge to Terabithia** ",
+            "**The Great Gilly Hopkins**   **The Great Gilly Hopkins** ",
+            "Bridge to Terabithia "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "Bridge to Terabithia"
+    },
+    "90": {
+        "answers": [
+            " Hannibal ",
+            " Hannibal ",
+            " Hannibal ",
+            "Final answer:   Hannibal ",
+            " Hannibal ",
+            "Hannibal "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Hannibal"
+    },
+    "91": {
+        "answers": [
+            " James and the Giant Peach ",
+            " James and the Giant Peach ",
+            " James and the Giant Peach ",
+            " James and the Giant Peach ",
+            " The answer is: **There is no such book.** ",
+            "**Final Answer:**   James and the Giant Peach "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "James and the Giant Peach"
+    },
+    "92": {
+        "answers": [
+            " Boy Erased ",
+            " Boy Erased ",
+            " Boy Erased: A Memoir ",
+            " **Boy Erased** ",
+            " Boy Erased ",
+            "Boy Erased "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Boy Erased: A Memoir"
+    },
+    "93": {
+        "answers": [
+            " The God Delusion ",
+            "The God Delusion ",
+            " The God Delusion ",
+            " The God Delusion ",
+            "The God Delusion   The God Delusion ",
+            "The God Delusion   The God Delusion "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The God Delusion"
+    },
+    "94": {
+        "answers": [
+            " The Talented Mr. Ripley ",
+            "The Talented Mr. Ripley ",
+            " The Talented Mr. Ripley ",
+            " The Talented Mr. Ripley ",
+            " **The Talented Mr. Ripley** ",
+            " The Talented Mr. Ripley "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Talented Mr. Ripley"
+    },
+    "95": {
+        "answers": [
+            "Unorthodox ``` ",
+            " Unorthodox: The Scandalous Rejection of My Hasidic Roots ",
+            " Unorthodox: The Scandalous Rejection of My Hasidic Roots ",
+            " **Unorthodox: The Scandalous Rejection of My Hasidic Roots** ",
+            " The Lights of My Life ",
+            "Unorthodox: A Memoir of the Old Believers "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "Unorthodox: The Scandalous Rejection of My Hasidic Roots"
+    },
+    "96": {
+        "answers": [
+            " Artemis Fowl ",
+            " Artemis Fowl ",
+            " Artemis Fowl ",
+            "Final answer:   Artemis Fowl ",
+            "Artemis Fowl   Artemis Fowl ",
+            "Artemis Fowl "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "Artemis Fowl"
+    },
+    "97": {
+        "answers": [
+            " **Sex** ",
+            "Sex  ",
+            " Sex ",
+            "Final answer:   Sex ",
+            " Truth or Dare: The Confessions of Madonna ",
+            " Sex "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "0",
+            "1"
+        ],
+        "ground_truth": "Sex"
+    },
+    "98": {
+        "answers": [
+            " The Lost World ",
+            "The Lost World ",
+            " The Lost World ",
+            " **The Lost World** ",
+            " The Lost World ",
+            "The Lost World "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Lost World"
+    },
+    "99": {
+        "answers": [
+            " **The Lies of Locke Lamora** ",
+            " The Lies of Locke Lamora ",
+            " The Lies of Locke Lamora ",
+            " The Lies of Locke Lamora ",
+            " The Lies of Locke Lamora ",
+            " The Lies of Locke Lamora "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "The Lies of Locke Lamora"
+    },
+    "100": {
+        "answers": [
+            " So Long, and Thanks for All the Fish ",
+            " So Long, and Thanks for All the Fish ",
+            " So Long, and Thanks for All the Fish ",
+            "Final answer:   So Long, and Thanks for All the Fish ",
+            " So Long, and Thanks for All the Fish ",
+            " So Long, and Thanks for All the Fish "
+        ],
+        "labels": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "ground_truth": "So Long, and Thanks for All the Fish"
+    }
+}

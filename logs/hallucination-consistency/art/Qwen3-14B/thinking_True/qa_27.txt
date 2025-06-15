@@ -1,0 +1,25 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1959-04-27 and created by Richard Condon? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a famous book released on April 27, 1959, created by Richard Condon. First, I need to recall Richard Condon's works. He's an American author known for his novels, especially "The Manchurian Candidate," which was published in 1959. Wait, but when exactly was that released? Let me check my memory. I think "The Manchurian Candidate" was indeed published in 1959, and the exact date might be around that time. The user specified April 27, so I need to confirm if that's the correct date. I might be mixing up the publication date with the release of the movie adaptation, which came later. But the book was first published in 1959. Let me verify. A quick search in my mind: yes, the book was published on April 27, 1959. So the answer should be "The Manchurian Candidate."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The famous book released on April 27, 1959, created by Richard Condon is *The Manchurian Candidate*.  
+
+The Manchurian Candidate
+************************************ End of Content ************************************

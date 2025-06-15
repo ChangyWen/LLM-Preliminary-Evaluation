@@ -1,0 +1,33 @@
+**************************************** Inputs ****************************************
+model: Qwen/Qwen3-14B
+enable_thinking: True
+do_sample: False
+prompt:
+What is the name of the famous book that was released in 1987-06-08 and created by Stephen King? Please give me your final answer in a new line at the end of your response.
+*********************************** End of Inputs **************************************
+
+
+
+
+*************************************** Thinking ***************************************
+<think>
+Okay, let's see. The user is asking for the name of a famous book released on June 8, 1987, created by Stephen King. First, I need to recall Stephen King's bibliography and check which of his books were published around that date.
+
+Stephen King has written many well-known books, like "The Shining," "It," "Pet Sematary," "Misery," and "The Stand." But I need to find the one that came out specifically on June 8, 1987. 
+
+I remember that "The Stand" was published in 1978, so that's too early. "It" was released in 1986, so that's before 1987. "Pet Sematary" was published in 1983. "Misery" came out in 1987, but I need to check the exact date. 
+
+Wait, "Misery" was published by Viking Press on June 8, 1987. That matches the date the user provided. Let me confirm that. Yes, "Misery" by Stephen King was indeed released on June 8, 1987. It's a horror novel about an author who is held captive by a fan. The book was very successful and even won the Bram Stoker Award. 
+
+I think that's the correct answer. I don't recall any other major Stephen King books from that exact date. So the answer should be "Misery."
+</think>
+*********************************** End of Thinking ************************************
+
+
+
+
+**************************************** Content ***************************************
+The famous book released on June 8, 1987, created by Stephen King is **Misery**.  
+
+Misery
+************************************ End of Content ************************************
