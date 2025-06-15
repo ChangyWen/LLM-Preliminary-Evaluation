@@ -41,7 +41,7 @@ with open("../../logs/hallucination-consistency/art/compared_results.json", "r")
     multi_hallucinated_item_count = 0
     multi_hallucinated_items = []
     while index <= 100:
-        if index == 76 or index == 78 or index == 79:
+        if index == 33 or index == 75 or index == 76 or index == 78 or index == 79:
             index += 1
             continue
         item = compared_results[f"{index}"]
@@ -72,8 +72,8 @@ with open("../../logs/hallucination-consistency/art/compared_results.json", "r")
 # historical figures 15
 # 17 (3), 27 (2), 30 (4), 63 (2)
 
-# art 13
-# 2 (2), 15 (3), 33 (2), 75 (5)
+# art 11
+# 2 (2), 15 (3)
 
 
 
